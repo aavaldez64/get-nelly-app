@@ -43,5 +43,20 @@
         "title": "Mit Nelly zum effizienten Praxisalltag",
         "text": "Schluss mit dem Papierchaos: Mit Nelly im Handumdrehen zu digitalen Dokumenten und Rechnungen.",
         "button": "Jeztz mehr erfahren"
-    }
+    },
+    "knownFrom": "Bekannt aus",
+    "scrollPhone": [
+        {
+            "title": "Digitale Patientenaufnahme",
+            "text": "Die Aufnahme der Patientinnen und Patienten geht jetzt ganz einfach via Smartphone. Nelly macht Schluss mit unnötigem Drucken, Scannen & Schreddern."
+        },
+        {
+            "title": "Echtzeit Dokumentenabwicklung",
+            "text": "Zeit sparen durch Automatisierung wiederkehrender Prozesse: Alle Dokumente werden digital zugestellt, unterzeichnet und per Schnittstelle automatisiert hinterlegt."
+        },
+        {
+            "title": "Digitale Rechnungen und Factoring",
+            "text": "Effizienter Abrechnen mit Nelly: Ob Factoring oder digitale Rechnungszustellung mit flexiblen Zahlungsmöglichkeiten für Patienten – Nelly bietet für jede Praxis die optimale Abrechnungslösung."
+        }
+    ]
 }

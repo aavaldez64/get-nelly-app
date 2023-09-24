@@ -3,6 +3,7 @@ import { getDictionary } from './dictionaries';
 
 import Introducing from '@/pages/homepage/components/Introducing';
 import KnownFrom from '@/pages/homepage/components/KnownFrom';
+import ScrollPhone from '@/pages/homepage/components/ScrollPhone';
 
 interface Props {
   params: {
@@ -16,6 +17,10 @@ export default async function HomePage({ params: {lang = "en"} }: Props) {
     <main>
       <Introducing introducing={dict.introducing}/>
       <KnownFrom dict={dict}/>
+
+      {/* // TODO: SCROLL PHONE */}
+      <ScrollPhone dict={dict}/>
+      
     </main>
   )
 }

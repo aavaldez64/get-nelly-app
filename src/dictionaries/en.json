@@ -43,5 +43,20 @@
         "title": "Introducing efficient practice management: Nelly Solutions.",
         "text": "Put an end to paper chaos: With Nelly, digital documents and invoices in no time at all.",
         "button": "Learn More"
-    }
+    },
+    "knownFrom": "Known from",
+    "scrollPhone": [
+        {
+            "title": "Digital patient check-in",
+            "text": "Revolutionize patient check-in with the power of smartphones! Introducing Nelly, your one-stop solution for hassle-free admissions, eliminating the need of printing, scanning, and shredding."
+        },
+        {
+            "title": "Real-time document handling",
+            "text": "Save time by automating recurring processes: All documents are delivered digitally, signed and automatically stored via interface."
+        },
+        {
+            "title": "Digital invoices and factoring",
+            "text": "Efficient billing with Nelly: Whether it's factoring or digital invoice delivery with flexible payment options for patients - Nelly offers the perfect billing solution for every practice."
+        }
+    ]
 }

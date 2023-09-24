@@ -14,6 +14,8 @@ export interface PropsWithDictionary {
 export interface Dictionary {
     header: Header;
     introducing: Introducing;
+    knownFrom: string;
+    scrollPhone: ScrollPhone[];
 }
 export interface Header {
     navLinks:    NavLink[];
@@ -34,4 +36,8 @@ export interface Introducing {
     title: string;
     text: string;
     button: string;
+}
+export interface ScrollPhone {
+    title: string;
+    text: string;
 }
