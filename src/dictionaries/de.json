@@ -1,0 +1,42 @@
+{
+    "header": {
+        "navLinks": [
+            {
+                "text": "So funktioniert's",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Preise",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Über uns",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Jobs",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Blog",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Hilfe",
+                "href": "#",
+                "link": false
+            }
+        ],
+        "PatiensLogin": "Patienten Login", 
+        "BookDemo": "Jetxt Demo buchen", 
+        "langOptions": {
+            "current": "de",
+            "options": ["en", "it"]
+        }
+    }
+}

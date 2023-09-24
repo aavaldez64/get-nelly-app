@@ -1,0 +1,49 @@
+
+.header {
+    @apply bg-[#E8F0E6]
+}
+.header img {
+    @apply w-[5.5rem]
+}
+.header ul {
+    @apply flex items-center
+}
+
+.buttonLang {
+    @apply relative;
+}
+.buttonLang ul {
+    border-radius: .875rem;
+    padding: .75rem 0;
+    @apply absolute top-[100%] bg-[#f1f6e9] w-full gap-1;
+}
+.buttonLang > button {
+    padding: .75rem;
+    border-radius: .875rem;
+    @apply hover:bg-[#f1f6e9]
+}
+.buttonLang ul a {
+    padding: 0 .75rem;
+    @apply block
+    
+}
+
+
+
+/** RESPONSIVE */
+
+@media (max-width: 1023px) {
+    .navResponsive {
+        background-color: #ffe;
+        position: absolute;
+        transition: all .3s ease-in-out;
+        height: 88vh;
+        top: 100%;
+    }
+    .closed {
+        /* bottom: 110% */
+        transform: translateY(-130%);
+    }
+    .open {
+    }
+}

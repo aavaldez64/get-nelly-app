@@ -1,0 +1,42 @@
+{
+    "header": {
+        "navLinks": [
+            {
+                "text": "How it works",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Prices",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "About us",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Jobs",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Blog",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Help",
+                "href": "#",
+                "link": false
+            }
+        ],
+        "PatiensLogin": "Patients Login", 
+        "BookDemo": "Book a demo now", 
+        "langOptions": {
+            "current": "en",
+            "options": ["de", "it"]
+        }
+    }
+}

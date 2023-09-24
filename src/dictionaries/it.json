@@ -1,0 +1,32 @@
+{
+    "header": {
+        "navLinks": [
+            {
+                "text": "Come funziona",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Chi siamo",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Offerte di lavoro",
+                "href": "#",
+                "link": false
+            },
+            {
+                "text": "Contattaci",
+                "href": "#",
+                "link": false
+            }
+        ],
+        "PatiensLogin": "Accesso per i pazienti", 
+        "BookDemo": "Prenota subito una demo", 
+        "langOptions": {
+            "current": "it",
+            "options": ["de", "en"]
+        }
+    }
+}
