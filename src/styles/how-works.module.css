@@ -1,0 +1,49 @@
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.listItem:not(:last-child) {
+    border-left: 4px solid #E8F0E6;
+    padding-bottom: 2rem;
+    @apply relative ps-[2rem] lg:ps-[4rem]
+}
+.listItem:last-child {
+    padding-bottom: 2rem;
+    @apply relative ps-[2rem] lg:ps-[4rem]
+}
+
+.listItem > div {
+    @apply absolute top-0 left-[-1.1rem] lg:left-[-1.4rem] rounded-full w-[1.8rem] h-[1.8rem] lg:w-[2.5rem] lg:h-[2.5rem] flex items-center justify-center;
+}
+.listItem:last-child > div {
+    @apply left-[-0.8rem] lg:left-[-1.4rem];
+}
+.listItem:not(:last-child) > div {
+    @apply bg-[#E8F0E6];
+}
+.listItem:last-child > div {
+    @apply bg-[#ffff9e] overflow-hidden;
+}
+.listItem:last-child > div svg {
+    @apply w-[1.2rem] h-[1.2rem] lg:w-[1.8rem] lg:h-[1.8rem];
+}
+.listItem:not(:last-child) > div span {
+    @apply font-extrabold text-lg lg:text-2xl;
+}
+.listItem h3 {
+    @apply font-extrabold text-base md:text-lg lg:text-2xl mb-2
+}
+.listItem p {
+    @apply block font-medium text-[.9rem] md:text-base leading-7
+}
+.listItem a {
+    @apply flex items-center w-fit gap-4 rounded-xl px-4 py-2 lg:px-5 lg:py-3 border-black border-2 text-center font-semibold text-base hover:bg-[#ffffe2]
+}
+.listItem svg {
+    @apply text-xl
+}

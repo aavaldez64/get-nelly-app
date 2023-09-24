@@ -58,5 +58,72 @@
             "title": "Digitale Rechnungen und Factoring",
             "text": "Effizienter Abrechnen mit Nelly: Ob Factoring oder digitale Rechnungszustellung mit flexiblen Zahlungsmöglichkeiten für Patienten – Nelly bietet für jede Praxis die optimale Abrechnungslösung."
         }
-    ]
+    ],
+    "compatible": "Kompatibel mit jeder Praxissoftware.",
+    "howWorks": {
+        "title": "So funktioniert’s",
+        "list": [
+            {
+                "title": "Check-In",
+                "text": "Anamnesebogen und weitere Dokumente werden mittels QR-Code in der Praxis oder per Link in der Terminbestätigung über das Smartphone der Patientinnen und Patienten ausgefüllt, unterzeichnet und in die Akte übertragen."
+            },
+            {
+                "title": "Behandlungsdokumente",
+                "text": "Im Anschluss können weitere Dokumente wie Aufklärungsbögen oder Kostenvoranschläge digital verschickt und per Klick unterzeichnet werden, inklusive automatisierter Erinnerungsfunktion."
+            },
+            {
+                "title": "Rechnungsstellung und Zahlung",
+                "text": "Patientinnen und Patienten können ihre bevorzugte Zahlungsmethode hinterlegen – wir von Nelly nehmen die Rechnungsstellung via E-Mail oder SMS vor und bearbeiten alle dazu eintreffenden Anfragen."
+            }
+        ],
+        "button": "Jetzt Demo buchen"
+    },
+    "button": "Jetzt Demo buchen",
+    "advantages": {
+        "title": "Vorteile für zahn- & arztpraxen",
+        "list": [
+            {
+                "unit": "%",
+                "value": 80,
+                "text": "Weniger Papier-, Druck- und Portokosten"
+            },
+            {
+                "unit": "min",
+                "value": 90,
+                "text": "Tägliche Zeitersparnis"
+            },
+            {
+                "unit": "%",
+                "value": 30,
+                "text": "Geringere Abrechnungskosten"
+            }
+        ]
+    },
+    "features": {
+        "title": "Digitale Patientenaufnahme & Dokumente",
+        "list": [
+            {
+              "title": "Patientenaufnahme",
+              "text": "Patienteninformationen effizient, zeitgemäß und ressourcenschonend einholen – ganz ohne Hardware.",
+              "imgSrc": "1_feature"
+            },
+            {
+              "title": "Dokumente",
+              "text": "Dokumente wie Aufklärungsbögen digital zustellen, unterzeichnen lassen und per Schnittstelle automatisiert hinterlegen.",
+              "imgSrc": "2_feature"
+            },
+            {
+              "title": "Patientenportal",
+              "text": "Zeitgemäße Kommunikation und Verwaltung von Dokumenten & Rechnungen für Patienten – ohne aufwändige Registrierung.",
+              "imgSrc": "3_feature"
+            }
+        ],
+        "secondTitle": {
+            "title": "Digitale Abrechnung",
+            "featureTitle": "Digitale Rechnung, Bezahlung und Factoring",
+            "featureText": "Mehr Umsatz, weniger Kosten und Liquiditätssicherheit mit Nelly: Automatisiertes Patienten-Scoring, digitale Rechnungszustellung, Factoring und ein nutzerfreundliches Abrechnungsportal. Einfache Bezahlung inklusive Teilzahlungsmöglichkeiten für Patienten ganz ohne Medienbrüche und Papierkram.",
+            "featureImgSrc": "4_feature"
+        },
+        "button": "Jetzt mehr erfahren"
+    }
 }

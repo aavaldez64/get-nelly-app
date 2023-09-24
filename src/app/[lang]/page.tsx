@@ -1,9 +1,14 @@
 import { Languages } from '@/interfaces';
 import { getDictionary } from './dictionaries';
-
-import Introducing from '@/pages/homepage/components/Introducing';
-import KnownFrom from '@/pages/homepage/components/KnownFrom';
-import ScrollPhone from '@/pages/homepage/components/ScrollPhone';
+import { 
+  Advantages,
+  Compatible, 
+  FeaturesSection, 
+  HowWorks,
+  Introducing, 
+  KnownFrom, 
+  ScrollPhone, 
+ } from '@/components/pages/homepage';
 
 interface Props {
   params: {
@@ -20,7 +25,11 @@ export default async function HomePage({ params: {lang = "en"} }: Props) {
 
       {/* // TODO: SCROLL PHONE */}
       <ScrollPhone dict={dict}/>
-      
+
+      <Compatible title={dict.compatible}/>
+      <HowWorks dict={dict}/>
+      <Advantages dict={dict}/>
+      <FeaturesSection dict={dict}/>
     </main>
   )
 }

@@ -58,5 +58,71 @@
             "title": "Digital invoices and factoring",
             "text": "Efficient billing with Nelly: Whether it's factoring or digital invoice delivery with flexible payment options for patients - Nelly offers the perfect billing solution for every practice."
         }
-    ]
+    ],
+    "compatible": "Compatible with any practice software.",
+    "howWorks": {
+        "title": "How it works",
+        "list": [
+            {
+                "title": "Check-In",
+                "text": "Medical history forms and other documents are filled out and signed on the patients smartphone before being seamlessly transferred to the patients record using a QR code in the practice or via a link provided in the appointment confirmation."
+            },
+            {
+                "title": "Treatment documents",
+                "text": "Subsequently, further documents such as clarification sheets or cost estimates can be sent digitally and signed with a click, including an automated reminder function."
+            },
+            {
+                "title": "Invoicing and payment",
+                "text": "Patients can conveniently store their preferred payment method - at Nelly, we handle invoice generation via email or SMS, ensuring prompt processing of all related inquiries."
+            }
+        ],
+        "button": "Book demo now"
+    },
+    "advantages": {
+        "title": "Advantages for dental & medical practices",
+        "list": [
+            {
+                "unit": "%",
+                "value": 80,
+                "text": "Less paper, printing and postage costs"
+            },
+            {
+                "unit": "min",
+                "value": 90,
+                "text": "Daily time saving"
+            },
+            {
+                "unit": "%",
+                "value": 30,
+                "text": "Lower billing costs"
+            }
+        ]
+    },
+    "features": {
+        "title": "Digital check-in & documents",
+        "list": [
+            {
+              "title": "Patient check-in",
+              "text": "Obtain patient information in an efficient, timely, and resource-efficient manner - without any hardware at all.",
+              "imgSrc": "1_feature"
+            },
+            {
+              "title": "Documents",
+              "text": "Deliver documents such as disclosure forms digitally, have them signed, and store them automatically via an interface.",
+              "imgSrc": "2_feature"
+            },
+            {
+              "title": "Patient Dashboard",
+              "text": "Modern communication and management of documents and invoices for patients - without the need for complicated registration.",
+              "imgSrc": "3_feature"
+            }
+        ],
+        "secondTitle": {
+            "title": "Digital billing",
+            "featureTitle": "Digital invoicing, payment and factoring",
+            "featureText": "More revenue, lower costs and liquidity security with Nelly: automated patient scoring, digital invoice delivery, factoring and a user-friendly billing portal. Easy payment including installment options for patients without any media breaks and paperwork.",
+            "featureImgSrc": "4_feature"
+        },
+        "button": "Learn more"
+    }
 }

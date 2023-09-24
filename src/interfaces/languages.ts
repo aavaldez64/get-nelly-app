@@ -16,7 +16,13 @@ export interface Dictionary {
     introducing: Introducing;
     knownFrom: string;
     scrollPhone: ScrollPhone[];
+    compatible: string;
+    howWorks: HowWorks;
+    advantages: Advantages;
+    features: Features;
 }
+
+
 export interface Header {
     navLinks:    NavLink[];
     langOptions: LangOptions;
@@ -40,4 +46,40 @@ export interface Introducing {
 export interface ScrollPhone {
     title: string;
     text: string;
+}
+export interface HowWorks {
+    title: string;
+    list: HowWorksList[];
+    button: string;
+}
+export interface HowWorksList {
+    title: string;
+    text: string;
+}
+export interface Advantages {
+    title: string;
+    list: AdvantagesList[];
+}
+export interface AdvantagesList {
+    unit: string;
+    value: number,
+    text: string;
+}
+
+export interface Features {
+    title: string;
+    list: ListFeatures[];
+    secondTitle: SecondFeatures;
+    button: string;
+}
+export interface ListFeatures {
+    title: string;
+    text: string;
+    imgSrc: string;
+}
+export interface SecondFeatures {
+    title: string;
+    featureTitle: string;
+    featureText: string;
+    featureImgSrc: string
 }

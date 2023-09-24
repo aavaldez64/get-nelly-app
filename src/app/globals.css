@@ -26,7 +26,13 @@
   border-radius: .875rem;
   box-shadow: 0 4px 16px rgba(47,64,46,.15);
   padding: .75rem 1rem;
-  @apply block bg-[#ffff9e] text-center
+  @apply block bg-[#ffff9e] text-center hover:bg-[#ff7]
+}
+.nelly-btn-flex {
+  border-radius: .875rem;
+  box-shadow: 0 4px 16px rgba(47,64,46,.15);
+  padding: .75rem 1rem;
+  @apply flex bg-[#ffff9e] text-center hover:bg-[#ff7] gap-4 items-center
 }
 
 

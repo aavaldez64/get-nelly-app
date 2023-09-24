@@ -1,8 +1,8 @@
-import { Introducing } from "@/interfaces"
 import Image from 'next/image';
-import { IconWrapper } from '../../../components/icons/IconWrapper';
+import { IconWrapper } from '@/components/icons/IconWrapper';
+import { Introducing as IntroducingProps } from "@/interfaces"
 
-export default function Introducing ({ introducing }: {introducing: Introducing}) {
+export const Introducing = ({ introducing }: {introducing: IntroducingProps}) => {
     
   return (
     <section className="bg-[#ffe] min-h-[40rem] flex flex-col lg:flex-row items-center justify-center relative">

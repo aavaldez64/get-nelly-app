@@ -48,5 +48,71 @@
             "title": "Pagamenti in studio e digitali",
             "text": "Con Nelly offri ai tuoi pazienti diverse modalità di pagamento: POS, pagamenti online, pagamenti anticipati, pagamenti rateali o finanziamenti ed invio anche digitale di fatture."
         }
-    ]
+    ],
+    "compatible": "Compatibile con qualsiasi software gestionale.",
+    "howWorks": {
+        "title": "Come funziona",
+        "list": [
+            {
+                "title": "Check-in e accettazione",
+                "text": "I moduli di anamnesi e gli altri documenti vengono compilati, firmati e trasferiti nella cartella del paziente tramite il codice QR presente nello studio o da casa tramite il link di conferma dell'appuntamento sullo smartphone del paziente."
+            },
+            {
+                "title": "Gestione ed invio documenti",
+                "text": "Successivamente, ulteriori documenti come moduli di chiarimento o preventivi di spesa possono essere inviati digitalmente e firmati con un semplice clic, inclusa una funzione di promemoria automatico."
+            },
+            {
+                "title": "Pagamenti in studio o digitali",
+                "text": "I pazienti possono selezionare il loro metodo di pagamento preferito. Inoltre, è possibile richiedere il pagamento anticipato dal paziente attraverso il link di conferma dell'appuntamento o sul sito dello studio."
+            }
+        ],
+        "button": "Prova Nelly gratuitamente"
+    },
+    "advantages": {
+        "title": "Vantaggi per gli studi dentistici e medici",
+        "list": [
+            {
+                "unit": "%",
+                "value": 80,
+                "text": "Meno carta, stampa e costi di conservazione"
+            },
+            {
+                "unit": "min",
+                "value": 90,
+                "text": "Risparmio quotidiano di tempo"
+            },
+            {
+                "unit": "%",
+                "value": 30,
+                "text": "Minori costi di gestione"
+            }
+        ]
+    },
+    "features": {
+        "title": "Registrazione e documenti digitali dei pazienti",
+        "list": [
+            {
+              "title": "Registrazione dati del paziente",
+              "text": "Ottenere informazioni sui pazienti in modo efficiente, veloce e con risparmio di risorse, senza alcun hardware.",
+              "imgSrc": "1_feature"
+            },
+            {
+              "title": "Documenti",
+              "text": "Documenti come i fogli informativi possono essere consegnati in formato digitale, firmati e archiviati automaticamente tramite un'interfaccia.",
+              "imgSrc": "2_feature"
+            },
+            {
+              "title": "Portale del paziente",
+              "text": "Comunicare e gestire in tempo reale documenti e fatture per i pazienti, senza dover ricorrere ad app o infinite registrazioni.",
+              "imgSrc": "3_feature"
+            }
+        ],
+        "secondTitle": {
+            "title": "Pagamenti",
+            "featureTitle": "Diverse modalità di pagamento in studio e digitali",
+            "featureText": "Con Nelly ottieni più fatturato, riduci i costi e assicuri al 100% la sicurezza dei pagamenti: offri soluzioni di pagamento più convenienti sia in studio, attraverso POS all'avanguardia con possibilità di rateizzazione per i pazienti, sia da casa attraverso pagamenti anticipati per ridurre code in sala d'attesa e no-show.",
+            "featureImgSrc": "4_feature"
+        }
+    },
+    "button": "Provalo ora"
 }

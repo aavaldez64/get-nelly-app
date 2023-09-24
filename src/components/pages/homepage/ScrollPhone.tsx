@@ -1,9 +1,9 @@
 "use client";
-import { PropsWithDictionary } from "@/interfaces";
-import Image from "next/image";
 import { useState } from "react";
+import Image from "next/image";
+import { PropsWithDictionary } from "@/interfaces";
 
-export default function ScrollPhone({dict}: PropsWithDictionary) {
+export const ScrollPhone = ({dict}: PropsWithDictionary) => {
     
     const [active, setActive] = useState(0);
     const ScollsData = (dict?.scrollPhone || []).map((item, index) => ({
@@ -12,17 +12,17 @@ export default function ScrollPhone({dict}: PropsWithDictionary) {
     }));
 
   return (
-    <section className="h-screen flex flex-col justify-center px-16">
+    <section className="h-screen flex flex-col justify-center px-4 mg:px-8 lg:px-16">
         {
             ScollsData.map((item, index) => (
-                <div key={index} className={`flex items-center ${active === index ? "" : "hidden"}`}>
-                    <article className="w-[50%]">
+                <div key={index} className={`flex flex-col md:flex-row items-center ${active === index ? "" : "hidden"}`}>
+                    <article className="w-full md:w-[50%] order-2 md:order-1">
                         <div>
-                            <h2 className="text-3xl font-extrabold mb-2">{item.title}</h2>
-                            <p className="font-medium text-md leading-8">{item.text}</p>
+                            <h2 className="text-xl lg:text-3xl font-extrabold mb-2">{index+1}. {item.title}</h2>
+                            <p className="font-medium text-[.9rem] lg:text-base leading-6 lg:leading-8">{item.text}</p>
                         </div>
                     </article>
-                    <article className="w-[50%]">
+                    <article className="w-full md:w-[50%] order-1 md:order-2">
                         <Image 
                             src={`/assets/scroll-phone/${item.imgSrc}`} 
                             alt={item.imgSrc}

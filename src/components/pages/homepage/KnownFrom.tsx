@@ -1,8 +1,8 @@
-import { PropsWithDictionary } from "@/interfaces"
 import Image from "next/image";
 import { imageSourcesKnowFrom as imageSources } from "@/constants";
+import { PropsWithDictionary } from "@/interfaces"
 
-const KnownFrom = ({dict}: PropsWithDictionary) => {
+export const KnownFrom = ({dict}: PropsWithDictionary) => {
   return (
     <section className="flex flex-col bg-[#E8F0E6] py-16">
       <h2 className="uppercase text-center mb-8 text-[#68986b] font-extrabold text-sm">{ dict?.knownFrom || "" }</h2>
@@ -29,5 +29,3 @@ const KnownFrom = ({dict}: PropsWithDictionary) => {
     </section>
   )
 }
-
-export default KnownFrom;
