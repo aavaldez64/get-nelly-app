@@ -28,5 +28,10 @@
             "current": "it",
             "options": ["de", "en"]
         }
+    },
+    "introducing": {
+        "title": "Rendi il tuo studio più efficiente con Nelly",
+        "text": "Mettete fine al caos della carta: con Nelly è possibile creare documenti e fatture digitali in pochissimo tempo.",
+        "button": "Provalo ora"
     }
 }

@@ -38,5 +38,10 @@
             "current": "de",
             "options": ["en", "it"]
         }
+    },
+    "introducing": {
+        "title": "Mit Nelly zum effizienten Praxisalltag",
+        "text": "Schluss mit dem Papierchaos: Mit Nelly im Handumdrehen zu digitalen Dokumenten und Rechnungen.",
+        "button": "Jeztz mehr erfahren"
     }
 }

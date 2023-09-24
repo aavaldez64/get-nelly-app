@@ -1,5 +1,9 @@
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: transform .3s ease-in-out;
     @apply bg-[#E8F0E6]
 }
 .header img {
@@ -27,7 +31,11 @@
     @apply block
     
 }
-
+.responsivelanguageLinks {
+    padding: .5rem;
+    border-radius: .875rem;
+    /* @apply hover:bg-[#f1f6e9] */
+}
 
 
 /** RESPONSIVE */
@@ -37,8 +45,9 @@
         background-color: #ffe;
         position: absolute;
         transition: all .3s ease-in-out;
-        height: 88vh;
+        height: calc(100vh - 4rem);
         top: 100%;
+        border-bottom: 2px solid black;
     }
     .closed {
         /* bottom: 110% */

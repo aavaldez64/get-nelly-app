@@ -1,5 +1,10 @@
 export const languages = {
+    de: "de",
     en: "en", 
     it: "it", 
-    de: "de"
 };
+export const languagesArr = [
+    "de",
+    "en", 
+    "it", 
+];

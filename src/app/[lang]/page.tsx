@@ -1,5 +1,8 @@
 import { Languages } from '@/interfaces';
-import { Introducing } from '@/pages/homepage/components/Introducing';
+import { getDictionary } from './dictionaries';
+
+import Introducing from '@/pages/homepage/components/Introducing';
+import KnownFrom from '@/pages/homepage/components/KnownFrom';
 
 interface Props {
   params: {
@@ -7,10 +10,12 @@ interface Props {
   },
 }
 
-export default function HomePage({ params: {lang = "en"} }: Props) {
+export default async function HomePage({ params: {lang = "en"} }: Props) {
+  const dict = await getDictionary(lang);
   return (
     <main>
-      <Introducing lang={lang}/>
+      <Introducing introducing={dict.introducing}/>
+      <KnownFrom dict={dict}/>
     </main>
   )
 }

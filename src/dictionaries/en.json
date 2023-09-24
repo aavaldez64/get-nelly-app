@@ -38,5 +38,10 @@
             "current": "en",
             "options": ["de", "it"]
         }
+    },
+    "introducing": {
+        "title": "Introducing efficient practice management: Nelly Solutions.",
+        "text": "Put an end to paper chaos: With Nelly, digital documents and invoices in no time at all.",
+        "button": "Learn More"
     }
 }

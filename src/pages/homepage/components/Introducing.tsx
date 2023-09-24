@@ -1,14 +1,22 @@
-import { PropsWithLanguage } from "@/interfaces"
+import { Introducing } from "@/interfaces"
 import Image from 'next/image';
 import { IconWrapper } from '../../../components/icons/IconWrapper';
 
-export const Introducing = ({lang}: PropsWithLanguage) => {
+export default function Introducing ({ introducing }: {introducing: Introducing}) {
+    
   return (
-    <section className="bg-[#ffe]">
-        {/* <div className="absolute h-full w-full bg-[#ffe] text-[#E8F0E6] z-[-1]" >
+    <section className="bg-[#ffe] min-h-[40rem] flex flex-col lg:flex-row items-center justify-center relative">
+        <div className="hidden lg:block absolute h-[90%] text-[#f1f6e9] bottom-0" >
             <IconWrapper />
-        </div> */}
-        <div className="flex overflow-x-hidden p-8 ps-[6vw] items-center justify-between absolute w-full">
+        </div>
+        <div className="relative lg:absolute flex overflow-x-hidden p-8 justify-center">
+            <article className="flex flex-col w-[80%] md:w-[70%] lg:w-[46.5%] gap-8 items-center justify-center">
+                <h1 className="font-[800] text-4xl text-center">{ introducing?.title || "" }</h1>
+                <p className="text-center font-medium">{ introducing?.text || "" }</p>
+                <a href="#" className="nelly-btn w-fit">{ introducing?.button || "" }</a>
+            </article>
+        </div>
+        <div className="flex overflow-x-hidden ps-[6vw] items-center justify-center md:justify-between relative w-full">
             <article className="w-[16rem]">
                 <Image
                     src="/assets/hero-iphone.jpg"
@@ -18,7 +26,7 @@ export const Introducing = ({lang}: PropsWithLanguage) => {
                     className=" w-full"
                 />
             </article>
-            <article className="w-[49rem] relative left-[30vw] z-40">
+            <article className="hidden md:block w-[45rem] relative left-[30vw]">
                 <Image
                     src="/assets/hero-ipad-p-800.jpg"
                     alt="Nelly iPad"
@@ -26,16 +34,6 @@ export const Introducing = ({lang}: PropsWithLanguage) => {
                     height={900}
                     className="w-full"
                 />
-            </article>
-        </div>
-        <div className="flex relative overflow-x-hidden p-8 justify-center min-h-[40rem] h-full py-28">
-            <div className="absolute h-[90%] text-[#f1f6e9] bottom-0" >
-                <IconWrapper />
-            </div>
-            <article className="flex flex-col w-[46.5%] gap-8 items-center z-50">
-                <h1 className="font-[800] text-4xl text-center">Introducing efficient practice management: Nelly Solutions.</h1>
-                <p className="text-center font-medium">Put an end to paper chaos: With Nelly, digital documents and invoices in no time at all.</p>
-                <a href="#" className="nelly-btn w-fit">Learn More</a>
             </article>
         </div>
     </section>
