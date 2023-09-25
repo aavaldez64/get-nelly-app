@@ -78,7 +78,6 @@
         ],
         "button": "Jetzt Demo buchen"
     },
-    "button": "Jetzt Demo buchen",
     "advantages": {
         "title": "Vorteile für zahn- & arztpraxen",
         "list": [
@@ -125,5 +124,14 @@
             "featureImgSrc": "4_feature"
         },
         "button": "Jetzt mehr erfahren"
+    },
+    "benefits": {
+        "title": "VORTEILE FÜR PATIENTEN",
+        "list": [
+            "Kein  Papierkram",
+            "Zeitgemäße Zahlungsmethoden",
+            "Flexible Ratenzahlungen",
+            "Weniger Rückfragen"
+        ]
     }
 }

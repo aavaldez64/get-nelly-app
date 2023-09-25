@@ -20,6 +20,7 @@ export interface Dictionary {
     howWorks: HowWorks;
     advantages: Advantages;
     features: Features;
+    benefits: Benefits;
 }
 
 
@@ -82,4 +83,9 @@ export interface SecondFeatures {
     featureTitle: string;
     featureText: string;
     featureImgSrc: string
+}
+
+export interface Benefits {
+    title: string;
+    list: string[];
 }

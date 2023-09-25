@@ -112,7 +112,16 @@
             "featureTitle": "Diverse modalità di pagamento in studio e digitali",
             "featureText": "Con Nelly ottieni più fatturato, riduci i costi e assicuri al 100% la sicurezza dei pagamenti: offri soluzioni di pagamento più convenienti sia in studio, attraverso POS all'avanguardia con possibilità di rateizzazione per i pazienti, sia da casa attraverso pagamenti anticipati per ridurre code in sala d'attesa e no-show.",
             "featureImgSrc": "4_feature"
-        }
+        },
+        "button": "Provalo ora"
     },
-    "button": "Provalo ora"
+    "benefits": {
+        "title": "VANTAGGI PER I PAZIENTI",
+        "list": [
+            "Niente più documenti cartacei",
+            "Metodi di pagamento moderni",
+            "Pagamenti rateali flessibili",
+            "Miglior esperienza in studio"
+        ]
+    }
 }

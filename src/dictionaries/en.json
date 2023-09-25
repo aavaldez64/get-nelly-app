@@ -124,5 +124,14 @@
             "featureImgSrc": "4_feature"
         },
         "button": "Learn more"
+    },
+    "benefits": {
+        "title": "Benefits for patients",
+        "list": [
+            "No paperwork",
+            "Modern payment methods",
+            "Flexible installment payments",
+            "Fewer inquiries"
+        ]
     }
 }

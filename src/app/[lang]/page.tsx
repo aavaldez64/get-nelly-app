@@ -2,6 +2,7 @@ import { Languages } from '@/interfaces';
 import { getDictionary } from './dictionaries';
 import { 
   Advantages,
+  Benefits,
   Compatible, 
   FeaturesSection, 
   HowWorks,
@@ -30,6 +31,8 @@ export default async function HomePage({ params: {lang = "en"} }: Props) {
       <HowWorks dict={dict}/>
       <Advantages dict={dict}/>
       <FeaturesSection dict={dict}/>
+      <Benefits dict={dict}/>
+      
     </main>
   )
 }
