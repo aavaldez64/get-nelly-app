@@ -1,3 +1,4 @@
+import { Pages } from "./pages/languages";
 
 
 export type Languages = "en" | "it" | "de";
@@ -26,6 +27,7 @@ export interface Dictionary {
     faq: FAQ;
     form: Form;
     footer: Footer;
+    pages: Pages;
 }
 
 

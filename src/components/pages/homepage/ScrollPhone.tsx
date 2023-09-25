@@ -12,7 +12,7 @@ export const ScrollPhone = ({dict}: PropsWithDictionary) => {
     }));
 
   return (
-    <section className="h-screen flex flex-col justify-center px-4 mg:px-8 lg:px-16">
+    <section className="bg-[#ffe] h-screen flex flex-col justify-center px-4 mg:px-8 lg:px-16">
         {
             ScollsData.map((item, index) => (
                 <div key={index} className={`flex flex-col md:flex-row items-center ${active === index ? "" : "hidden"}`}>

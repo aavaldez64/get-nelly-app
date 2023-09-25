@@ -8,8 +8,8 @@
             },
             {
                 "text": "Prices",
-                "href": "#",
-                "link": false
+                "href": "preise",
+                "link": true
             },
             {
                 "text": "About us",
@@ -254,7 +254,6 @@
             }
         ]
     },
-
     "form": {
         "title": [
             {"strong": false, "text": "Request more information "},
@@ -332,5 +331,53 @@
             ]
         },
         "copyright": "© Nelly Solutions 2023, All Rights Reserved"
+    },
+
+    "pages": {
+        "preises": {
+            "title": "Simple, clear, transparent: Our prices.",
+            "cards": [
+                {
+                    "title": "from 129€* / month",
+                    "subtitle": "BASIS SOFTWARE",
+                    "text": "Put an end to paper chaos: With Nelly, digital signatures, documents, and invoices in no time at all. Worry-free thanks to maximum security.",
+                    "list": [
+                        "Interface to your practice management software",
+                        "Contactless patient intake",
+                        "Digital document handling",
+                        "Available in over 30 languages",
+                        "Available for all subject groups"
+                    ],
+                    "button": "Request now",
+                    "additional": true
+                },
+                {
+                    "title": "Individual offer",
+                    "subtitle": "FACTORING SERVICE",
+                    "text": "Nelly is the first provider in the DACH region to be able to develop factoring (after a one-time wet signature in practice) completely digitally.",
+                    "list": [
+                        "Billing and KV factoring from a single source",
+                        "Digital invoice dispatch - interface to your PVS",
+                        "Automated credit check upon patient admission",
+                        "Automated prepayment for bonus negative patients.",
+                        "Default protection from the first euro",
+                        "Secured liquidity hours after invoicing",
+                        "Attractive installment options for patients",
+                        "Personal support from our experts"
+                    ],
+                    "button": "Request now",
+                    "additional": false
+                }
+            ],
+            "firstAdditional": {
+                "title": "PER ADDITIONAL ATTENDING PHYSICIAN",
+                "text": "29€ / month"
+            },
+            "secondAdditional": {
+                "title": "FOR UNLIMITED RECONNAISSANCE SHEETS",
+                "text": "50€ / month"
+            },
+            "textSmall": "*In case of direct interface to our partners, additional fees may apply"
+        }
     }
 }

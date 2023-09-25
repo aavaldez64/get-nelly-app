@@ -11,6 +11,7 @@ export const MenuLang = ({ langOptions }: { langOptions: LangOptions }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const path = usePathname() ?? "";
   const paths = path.split("/");
+  const restofUrl = paths.slice(2).join("/");
   return (
     <>
       <li className={`${style.buttonLang} hidden lg:block`}>
@@ -25,7 +26,7 @@ export const MenuLang = ({ langOptions }: { langOptions: LangOptions }) => {
           <ul className="flex flex-col">
             {langOptions.options.map((item, index) => (
               <li key={index}>
-                <Link href={`/${item}`} className="flex items-center uppercase">
+                <Link href={`/${item}/${restofUrl}`} className="flex items-center uppercase">
                   {item}
                 </Link>
               </li>
@@ -38,7 +39,7 @@ export const MenuLang = ({ langOptions }: { langOptions: LangOptions }) => {
           {languagesArr.map((item, index) => (
             <Link
               key={index}
-              href={`/${item}`}
+              href={`/${item}/${restofUrl}`}
               className={`${
                 style.responsivelanguageLinks
               } flex items-center uppercase ${

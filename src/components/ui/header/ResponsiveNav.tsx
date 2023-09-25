@@ -4,17 +4,27 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { MenuLang } from './MenuLang';
-import type { Header as IHeader } from '@/interfaces';
+import type { Header as IHeader, Languages } from '@/interfaces';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
-export const ResponsiveNav = ({ header }: {header: IHeader}) => {
+interface Props {
+    header: IHeader;
+    lang: Languages;
+    bookDemo: boolean;
+}
+
+export const ResponsiveNav = ({ header, lang, bookDemo }: Props) => {
     const { langOptions, navLinks } = header;
+    const path = usePathname();
+    const pathSplitted = path.split('/');
+    const currentPath = pathSplitted[2];
 
     const [navOpen, setNavOpen] = useState(false);
     return (
         <div className="flex flex-wrap w-full justify-between lg:justify-start items-center mx-auto max-w-screen-xl relative">
             <div className='w-full lg:w-auto flex justify-between z-10 bg-[#E8F0E6]'>
-                <Link href="/" className="flex items-center ps-4 py-1 lg:ps-0 lg:py-0">
+                <Link href={`/${lang}`} className="flex items-center ps-4 py-1 lg:ps-0 lg:py-0">
                     <Image
                         src="/assets/getnelly-logo.svg"
                         alt="Nelly"
@@ -46,8 +56,8 @@ export const ResponsiveNav = ({ header }: {header: IHeader}) => {
                             <li key={index}>
                                 {
                                     item.link
-                                    ? (<Link href={item.href}>{item.text}</Link>)
-                                    : (<a href={item.href}>{item.text}</a>)
+                                    ? (<Link className={currentPath === item.href ? "text-[#67986B]" : ""} href={`/${lang}/${item.href}`}>{item.text}</Link>)
+                                    : (<a href={pathSplitted.length > 2 ? `/${lang}${item.href}` : item.href}>{item.text}</a>)
                                 }
                             </li>
                         ))
@@ -58,9 +68,13 @@ export const ResponsiveNav = ({ header }: {header: IHeader}) => {
                     <li>
                         <Link href="/en">{ header.PatiensLogin }</Link>
                     </li>
-                    <li className='w-[90%] lg:w-auto'>
-                        <Link href="/en" className="nelly-btn">{ header.BookDemo }</Link>
-                    </li>
+                    {
+                        bookDemo && (
+                            <li className='w-[90%] lg:w-auto'>
+                                <Link href="/en" className="nelly-btn">{ header.BookDemo }</Link>
+                            </li>
+                        )
+                    }
                 </ul>
             </div>
         </div>

@@ -32,9 +32,7 @@ export default async function RootLayout({ children, params: {lang = "en"} }: Pr
   const dict = await getDictionary(lang);
   return (
       <body className={montserrat.className}>
-        <Header dictionary={dict}/>
         {children}
-        <Footer dict={dict}/>
       </body>
   )
 }

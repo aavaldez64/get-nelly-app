@@ -8,8 +8,8 @@
             },
             {
                 "text": "Chi siamo",
-                "href": "#",
-                "link": false
+                "href": "preise",
+                "link": true
             },
             {
                 "text": "Offerte di lavoro",
@@ -323,5 +323,53 @@
             ]
         },
         "copyright": "© Nelly Solutions 2023, Tutti i diritti riservati"
+    },
+
+    "pages": {
+        "preises": {
+            "title": "Semplice, chiaro, trasparente: I nostri prezzi.",
+            "cards": [
+                {
+                    "title": "da 129€* / mese",
+                    "subtitle": "SOFTWARE DI BASE",
+                    "text": "Mettete fine al caos della carta: con Nelly, firme digitali, documenti e fatture sono un gioco da ragazzi. Senza preoccupazioni grazie alla massima sicurezza.",
+                    "list": [
+                        "Interfaccia con il software di gestione dello studio",
+                        "Ricovero pazienti senza contatto",
+                        "Gestione digitale dei documenti",
+                        "Disponibile in oltre 30 lingue",
+                        "Disponibile per tutti i gruppi di soggetti"
+                    ],
+                    "button": "Richiedi ora",
+                    "additional": true
+                },
+                {
+                    "title": "Offerta individuale",
+                    "subtitle": "SERVIZIO DI FACTORING",
+                    "text": "Nelly è il primo fornitore nella regione DACH in grado di sviluppare il factoring in modo completamente digitale (dopo una firma una tantum in pratica).",
+                    "list": [
+                        "Fatturazione e KV factoring da un'unica fonte",
+                        "Invio digitale delle fatture - interfaccia con il vostro PVS",
+                        "Controllo automatico dell'affidabilità creditizia al momento dell'ammissione del paziente",
+                        "Pagamento anticipato automatico per i pazienti con bonus negativo",
+                        "Protezione dalle inadempienze dal primo euro",
+                        "Liquidità assicurata ore dopo la fatturazione",
+                        "Opzioni di pagamento rateale interessanti per i pazienti",
+                        "Assistenza personale da parte dei nostri esperti"
+                    ],
+                    "button": "Richiedi ora",
+                    "additional": false
+                }
+            ],
+            "firstAdditional": {
+                "title": "PER OGNI MEDICO CURANTE AGGIUNTIVO",
+                "text": "29€ / mese"
+            },
+            "secondAdditional": {
+                "title": "PER FOGLI DI RICOGNIZIONE ILLIMITATI",
+                "text": "50€ / mese"
+            },
+            "textSmall": "*In caso di interfacciamento diretto con i nostri partner possono essere applicati costi aggiuntivi."
+        }
     }
 }

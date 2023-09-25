@@ -2,14 +2,16 @@
 
 import { useEffect, useRef } from "react";
 import style from "@/styles/header/header.module.css";
-import { Dictionary } from "@/interfaces";
+import { Dictionary, Languages } from "@/interfaces";
 import { ResponsiveNav } from "./header/ResponsiveNav";
 
 interface Props {
-  dictionary: Dictionary
+  dictionary: Dictionary;
+  lang: Languages;
+  bookDemo?: boolean;
 }
 
-export const Header = ({ dictionary }: Props) => {
+export const Header = ({ dictionary, lang, bookDemo = false }: Props) => {
   const headerRef = useRef<HTMLElement>(null);
   useEffect(() => {
 
@@ -42,7 +44,7 @@ export const Header = ({ dictionary }: Props) => {
   return (
     <header ref={ headerRef } className={style.header}>
       <nav className="px-0 lg:px-10 min-h-[4rem] lg:min-h-[5.8rem] flex items-center">
-          <ResponsiveNav header={ dictionary.header } />
+          <ResponsiveNav header={ dictionary.header } lang={lang} bookDemo={bookDemo}/>
       </nav>
     </header>
   );

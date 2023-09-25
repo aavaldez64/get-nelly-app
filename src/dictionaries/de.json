@@ -8,8 +8,8 @@
             },
             {
                 "text": "Preise",
-                "href": "#",
-                "link": false
+                "href": "preise",
+                "link": true
             },
             {
                 "text": "Über uns",
@@ -333,5 +333,53 @@
             ]
         },
         "copyright": "© Nelly Solutions 2023, All Rights Reserved"
+    },
+
+    "pages": {
+        "preises": {
+            "title": "Einfach, klar, transparent: Unsere Preise.",
+            "cards": [
+                {
+                    "title": "ab 129€* / Monat",
+                    "subtitle": "BASIS SOFTWARE",
+                    "text": "Schluss mit dem Papierchaos: Mit Nelly im Handumdrehen zu digitalen Unterschriften, Dokumenten und Rechnungen. Sorgenfrei durch höchste Sicherheit.",
+                    "list": [
+                        "Schnittstelle zu Ihrer Praxisverwaltungssoftware",
+                        "Kontaktlose Patientenaufnahme",
+                        "Digitale Dokumentenabwicklung",
+                        "Verfügbar in über 30 Sprachen",
+                        "Verfügbar für alle Fachgruppen"
+                    ],
+                    "button": "Jetzt anfragen",
+                    "additional": true
+                },
+                {
+                    "title": "Individuelles Angebot",
+                    "subtitle": "FACTORING SERVICE",
+                    "text": "Nelly ist der erste Anbieter in der DACH-Region, der das Factoring (nach einmaliger Nass-Unterschrift in der Praxis) komplett digital entwickeln kann.",
+                    "list": [
+                        "Abrechnung und KV-Factoring aus einer Hand",
+                        "Digitaler Rechnungsversand - Schnittstelle zu Ihrer PVS",
+                        "Automatisierte Bonitätsabfrage bei Patientenaufnahme",
+                        "Automatisierte Vorkasse bei Boni-Negativpatienten",
+                        "Ausfallschutz ab dem ersten Euro",
+                        "Gesicherte Liquidität Stunden nach Rechnungsstellung",
+                        "Attraktive Teilzahlungsmöglichkeiten für Patient:innen",
+                        "Persönliche Betreuung durch unsere Expert:innen"
+                    ],
+                    "button": "Jetzt anfragen",
+                    "additional": false
+                }
+            ],
+            "firstAdditional": {
+                "title": "PRO WEITEREN BEHANDELNDEN ARZT",
+                "text": "29€ / Monat"
+            },
+            "secondAdditional": {
+                "title": "FÜR UNBEGRENZTE AUFKLÄRUNGSBÖGEN",
+                "text": "50€ / Monat"
+            },
+            "textSmall": "*Bei direkter Schnittstelle zu unseren Partnern können zusätzliche Gebühren anfallen"
+        }
     }
 }
