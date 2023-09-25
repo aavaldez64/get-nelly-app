@@ -335,6 +335,7 @@
 
     "pages": {
         "preises": {
+            "metadata": {"title": "Our prices"},
             "title": "Simple, clear, transparent: Our prices.",
             "cards": [
                 {

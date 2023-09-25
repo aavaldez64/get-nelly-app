@@ -327,6 +327,7 @@
 
     "pages": {
         "preises": {
+            "metadata": {"title": "I nostri prezzi"},
             "title": "Semplice, chiaro, trasparente: I nostri prezzi.",
             "cards": [
                 {

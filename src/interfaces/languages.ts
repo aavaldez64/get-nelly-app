@@ -9,6 +9,9 @@ export interface PropsWithLanguage {
 export interface PropsWithDictionary {
     dict: Dictionary;
 }
+export interface LangMetadata {
+    title: string
+}
 
 
 // DICTIONARY

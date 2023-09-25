@@ -1,9 +1,11 @@
+import { LangMetadata } from "../";
 
 export interface Pages {
     preises: Preises;
 }
 
 export interface Preises {
+    metadata:         LangMetadata;
     title:            string;
     cards:            PreisesCard[];
     firstAdditional:  PreisesAdditional;
