@@ -1,6 +1,11 @@
 {
   "name": "getnelly-app",
   "version": "0.1.0",
+  "author": {
+    "name": "aavaldez64",
+    "email": "aaronvaldez2001@gmail.com"
+  },
+  "description": "Getnelly App. Frontend develop practice using NextJS",
   "private": true,
   "scripts": {
     "dev": "next dev",

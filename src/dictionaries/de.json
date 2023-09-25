@@ -3,7 +3,7 @@
         "navLinks": [
             {
                 "text": "So funktioniert's",
-                "href": "#",
+                "href": "#so-funktionierts",
                 "link": false
             },
             {
@@ -133,5 +133,205 @@
             "Flexible Ratenzahlungen",
             "Weniger Rückfragen"
         ]
+    },
+    "clients": {
+        "title": "UNSERE PARTNER",
+        "list": [
+            {
+                "resource": {
+                    "video": true,
+                    "src": [
+                        {
+                        "type": "video/mp4",
+                        "src": "1_client.mp4"
+                        },
+                        {
+                        "type": "video/webm",
+                        "src": "1_client.webm"
+                        }
+                    ]
+                },
+                "quote": [
+                    {"strong": false, "text": "Mit Nelly haben wir das Zahlungserlebnis für unsere Patienten deutlich verbessert und den "},
+                    {"strong": true, "text": "Großteil des Verwaltungsaufwandes "},
+                    {"strong": false, "text": "unserer Mitarbeiter "},
+                    {"strong": true, "text": "reduziert."}
+                ],
+                "name": "DR. PHILIPP F. GEBHARDT",
+                "position": "BISS45",
+                "image": "1_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": true,
+                    "src": [
+                        {
+                        "type": "video/mp4",
+                        "src": "2_client.mp4"
+                        },
+                        {
+                        "type": "video/webm",
+                        "src": "2_client.webm"
+                        }
+                    ]
+                },
+                "quote": [
+                    {"strong": false, "text": "Um es kurz und knapp zu halten: "},
+                    {"strong": false, "text": "Mit Nelly wird alles digitalisiert!"}
+                ],
+                "name": "HENRY GENE GO SIONG",
+                "position": "AllDent Zahnzentrum",
+                "image": "2_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": false,
+                    "src": "3_client_video.jpg"
+                },
+                "quote": [
+                    {"strong": false, "text": "Unsere Arztpraxen "},
+                    {"strong": true, "text": "sparen "},
+                    {"strong": false, "text": "mit Nelly Abrechnungsgebühren, Papier und Druckkosten. Außerdem werden Praxisabläufe "},
+                    {"strong": true, "text": "beschleunigt "},
+                    {"strong": false, "text": "und das "},
+                    {"strong": true, "text": "Personal enorm entlastet."}
+                ],
+                "name": "VOLKAN DEMIRBAS",
+                "position": "mydent",
+                "image": "3_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": false,
+                    "src": "4_client_video.jpg"
+                },
+                "quote": [
+                    {"strong": false, "text": "Mit Nelly "},
+                    {"strong": true, "text": "entlasten wir unsere Mitarbeiter deutlich"},
+                    {"strong": false, "text": ", da der Verwaltungsaufwand auf ein Minimum reduziert wurde. Außerdem können Patienten endlich zeitgemäß zahlen."}
+                ],
+                "name": "JULIA STECHMESSER",
+                "position": "Zahnkultur Marzahn",
+                "image": "4_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": false,
+                    "src": "5_client_video.jpg"
+                },
+                "quote": [
+                    {"strong": true, "text": "Nelly nimmt uns enorm viel Arbeit ab. "},
+                    {"strong": false, "text": "Zuvor nutzten wir eine Anmeldungssoftware die auf Tablets lief aber häufig hackte. Jetzt ist es an der Anmeldung viel entspannter."}
+                ],
+                "name": "DR. MED. GEORG-EIKE BÖHME",
+                "position": "Hausärzte im Lehel",
+                "image": "5_client.jpg"
+            }
+        ]
+    },
+    "ourPromise": "UNSER VERSPRECHEN",
+    "faq": {
+        "title": "Häufig gestellte Fragen",
+        "faqs": [
+            {
+                "question": "Müssen sich Patienten für die Nutzung eine App herunterladen?",
+                "answer": "Nein, Nelly funktioniert über den Webbrowser der Endgeräte."
+            },
+            {
+                "question": "Thema Datenschutz: Wie sicher ist Nelly?",
+                "answer": "Wir von Nelly legen großen Wert auf das Thema Datenschutz. Alle Daten werden verschlüsselt und auf deutschen Servern gespeichert. Alle Daten, die erzeugt werden, gehören der Praxis. Dafür haben wir eine Zertifizierung des TÜV für geprüften Datenschutz durchlaufen. Hier gelangen Sie zu unserem TÜV Zertifikat: https://www.tuev-saar.de/zertifikat/tk45030/"
+            },
+            {
+                "question": "Funktioniert Nelly auch mit meinem Praxisverwaltungssystem?",
+                "answer": "Ja, Nelly ist Dank seiner Schnittstellen mit jedem Praxisverwaltungssystem kompatibel. Mit Hilfe dieser Schnittstellen können Bilder und Dokumente direkt in der Patientenakte hinterlegt werden. Für mehr Informationen zur Schnittstellenkompatibilität Ihrer Praxissoftware und Nelly, empfehlen wir ein kostenfreies Beratungsgespräch mit einem unserer Nelly-Experten."
+            },
+            {
+                "question": "Ist für Nelly eine extra Hardware notwendig?",
+                "answer": "Nein, für Nutzung von Nelly ist keine weitere Hardware, wie zum Beispiel ein Tablet oder ein Signaturpad, notwendig."
+            },
+            {
+                "question": "Wie können Menschen, die kein Smartphone besitzen, Nelly nutzen?",
+                "answer": "Schon heute besitzen mehr als 90% der Menschen in Deutschland ein Smartphone. Durch die Corona Pandemie sind das Scannen von QR-Codes sowie das Ausfüllen von Dokumenten über das eigene Smartphone in der Mitte der Gesellschaft angekommen. Auf Wunsch kann jedoch ein Tablet hinzugebucht werden. Dadurch brauchen Patienten lediglich ein SMS-fähiges Telefon. Sollten Patienten überhaupt kein Smartphone besitzen, kann neben Nelly weiterhin Papier verwendet werden."
+            }
+        ]
+    },
+    
+    "form": {
+        "title": [
+            {"strong": false, "text": "Jetzt "},
+            {"strong": true, "text": "kostenfrei "},
+            {"strong": false, "text": "mehr Informationen anfordern."}
+        ],
+        "description": "Keine App oder Tablets. Kein Drucken, Abheften oder Scannen. Setup und Updates kostenfrei. Lassen Sie sich jetzt beraten.",
+        "tags": ["Kostensparend", "Zeitsparend", "Kompatibel mit jeder PVS"],
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "phone": "Telefonnummer",
+        "job": "Position*",
+        "email": "E-Mail",
+        "region": "Bundesland / Region (DE)",
+        "defaultOption": "Bitte auswählen",
+        "TyC": "Indem Sie unten auf „Jetzt Abschicken“ klicken, stimmen Sie zu, dass die Nelly Solutions GmbH die oben angegebenen persönlichen Daten speichern und verarbeiten darf, um Ihnen die angeforderten Inhalte bereitzustellen. Weitere Informationen hierzu erhalten Sie in unserer Datenschutzerklärung.",
+        "numeroCelulare": "",
+        "submit": "Jetzt Abschicken",
+        "error": "Bitte füllen Sie dieses Pflichtfeld aus."
+    },
+    "footer": {
+        "learnMore": {
+            "title": "Mehr erfahren",
+            "links": [
+                {
+                    "text": "Demo anfragen",
+                    "href": "#",
+                    "navLink": false
+                },
+                {
+                    "text": "FAQs",
+                    "href": "#",
+                    "navLink": false
+                },
+                {
+                    "text": "Über Uns",
+                    "href": "/en",
+                    "navLink": true
+                },
+                {
+                    "text": "Impressum",
+                    "href": "/en",
+                    "navLink": true
+                },
+                {
+                    "text": "Datenschutz",
+                    "href": "#",
+                    "navLink": false
+                }
+            ]
+        },
+        "contact": {
+            "title": "Kontakt",
+            "links": [
+                {
+                    "text": "Kontakt",
+                    "href": "#",
+                    "navLink": false
+                },
+                {
+                    "text": "Kundenservice",
+                    "href": "/en",
+                    "navLink": true
+                },
+                {
+                    "text": "info@nelly-solutions.com",
+                    "href": "mailto:info@nelly-solutions.com",
+                    "navLink": false
+                },
+                {
+                    "text": "+49 30 91733799",
+                    "href": "tel:+49 30 91733799",
+                    "navLink": false
+                }
+            ]
+        },
+        "copyright": "© Nelly Solutions 2023, All Rights Reserved"
     }
 }

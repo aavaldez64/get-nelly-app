@@ -6,7 +6,7 @@ import { PropsWithDictionary } from "@/interfaces"
 export const HowWorks = ({dict}: PropsWithDictionary) => {
     const listData = dict?.howWorks?.list || [];
   return (
-    <section className="flex flex-col py-12 px-6md:px-16 lg:py-24 lg:px-32 items-center w-full bg-white">
+    <section id="so-funktionierts" className="flex flex-col py-12 px-6md:px-16 lg:py-24 lg:px-32 items-center w-full bg-white">
         <div className="hidden lg:flex w-full justify-center mb-8">
             <div className="w-5/12"></div>
             <div className="w-full lg:w-5/12">
@@ -23,8 +23,8 @@ export const HowWorks = ({dict}: PropsWithDictionary) => {
                     muted 
                     loop
                 >
-                    <source src="/assets/how2-transcode.mp4"/>
-                    <source src="/assets/how2-transcode.webm"/>
+                    <source src="/assets/how2-transcode.mp4" type="video/mp4"/>
+                    <source src="/assets/how2-transcode.webm" type="video/webm"/>
                 </video>
             </article>
             <article className="w-full lg:w-6/12 px-8 lg:px-0">

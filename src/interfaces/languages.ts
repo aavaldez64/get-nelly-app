@@ -21,6 +21,11 @@ export interface Dictionary {
     advantages: Advantages;
     features: Features;
     benefits: Benefits;
+    clients: Clients;
+    ourPromise: string;
+    faq: FAQ;
+    form: Form;
+    footer: Footer;
 }
 
 
@@ -88,4 +93,70 @@ export interface SecondFeatures {
 export interface Benefits {
     title: string;
     list: string[];
+}
+
+export interface Clients {
+    title: string;
+    list: ClientItem[];
+}
+export interface ClientItem {
+    resource: ClientResource,
+    quote: ClientQuote[];
+    name: string;
+    position: string;
+    image: string;
+}
+export type ClientQuote = {text: string, strong: boolean};
+export type ClientResource = 
+| {
+    video: true,
+    src: {type: "", src: string}[]
+}
+| {
+    video: false,
+    src: string
+}
+
+export interface FAQ {
+    title: string;
+    faqs: FAQItem[];
+}
+export interface FAQItem {
+    question: string;
+    answer: string;
+}
+
+export interface Form {
+    title: ClientQuote[];
+    description: string;
+    tags: string[];
+    firstName: string;
+    lastName: string;
+    phone: string;
+    job: string;
+    email: string;
+    region: string;
+    defaultOption: string;
+    TyC: string;
+    numeroCelulare: string;
+    submit: string;
+    error: string;
+}
+
+export interface Footer {
+    learnMore: {
+        title: string;
+        links: FooterLinks[];
+    },
+    contact: {
+        title: string;
+        links: FooterLinks[];
+    },
+    copyright: string;
+}
+
+interface FooterLinks {
+    text: string;
+    href: string;
+    navLink: boolean;
 }

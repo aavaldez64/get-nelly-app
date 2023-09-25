@@ -9,11 +9,11 @@ export const Introducing = ({ introducing }: {introducing: IntroducingProps}) =>
         <div className="hidden lg:block absolute h-[90%] text-[#f1f6e9] bottom-0" >
             <IconWrapper />
         </div>
-        <div className="relative lg:absolute flex overflow-x-hidden p-8 justify-center">
+        <div className="relative lg:absolute flex overflow-x-hidden p-8 justify-center z-50">
             <article className="flex flex-col w-[80%] md:w-[70%] lg:w-[46.5%] gap-8 items-center justify-center">
                 <h1 className="font-[800] text-4xl text-center">{ introducing?.title || "" }</h1>
                 <p className="text-center font-medium">{ introducing?.text || "" }</p>
-                <a href="#" className="nelly-btn w-fit">{ introducing?.button || "" }</a>
+                <a href="#kontakt" className="nelly-btn w-fit">{ introducing?.button || "" }</a>
             </article>
         </div>
         <div className="flex overflow-x-hidden ps-[6vw] items-center justify-center md:justify-between relative w-full">

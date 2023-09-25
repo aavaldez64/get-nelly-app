@@ -1,0 +1,15 @@
+.contactLinks {
+    @apply flex lg:justify-center gap-4 text-2xl mt-4
+}
+
+.wrapper {
+    bottom: 0;
+    @apply h-[40vw] md:h-[40%] lg:h-[80%] text-[#f1f6e9] w-full absolute flex justify-center z-0;
+}
+@media only screen and (max-width: 767px) {
+    .wrapper {
+        right: 10vw;
+        width: auto;
+    }
+    
+}

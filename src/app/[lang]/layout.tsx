@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
-import { Header } from '@/components/ui/Header';
-import { Languages } from '@/interfaces';
 import { languages } from '@/dictionaries/languages';
 import { redirect } from 'next/navigation';
 import { getDictionary } from './dictionaries';
+import { Footer, Header } from '@/components/ui';
+import { Languages } from '@/interfaces';
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -34,6 +34,7 @@ export default async function RootLayout({ children, params: {lang = "en"} }: Pr
       <body className={montserrat.className}>
         <Header dictionary={dict}/>
         {children}
+        <Footer dict={dict}/>
       </body>
   )
 }

@@ -3,7 +3,7 @@
         "navLinks": [
             {
                 "text": "Come funziona",
-                "href": "#",
+                "href": "#so-funktionierts",
                 "link": false
             },
             {
@@ -123,5 +123,205 @@
             "Pagamenti rateali flessibili",
             "Miglior esperienza in studio"
         ]
+    },
+    "clients": {
+        "title": "I NOSTRI PARTNER",
+        "list": [
+            {
+                "resource": {
+                    "video": true,
+                    "src": [
+                        {
+                        "type": "video/mp4",
+                        "src": "1_client.mp4"
+                        },
+                        {
+                        "type": "video/webm",
+                        "src": "1_client.webm"
+                        }
+                    ]
+                },
+                "quote": [
+                    {"strong": false, "text": "Con Nelly abbiamo migliorato in modo significativo l'esperienza di pagamento per i nostri pazienti e abbiamo eliminato parte dei costi amministrativi. "},
+                    {"strong": true, "text": "Abbiamo ridotto la maggior parte delle attività amministrative "},
+                    {"strong": false, "text": "del nostro personale."}
+                ],
+                "name": "DR. PHILIPP F. GEBHARDT",
+                "position": "BISS45",
+                "image": "1_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": true,
+                    "src": [
+                        {
+                        "type": "video/mp4",
+                        "src": "2_client.mp4"
+                        },
+                        {
+                        "type": "video/webm",
+                        "src": "2_client.webm"
+                        }
+                    ]
+                },
+                "quote": [
+                    {"strong": false, "text": "Per farla breve: "},
+                    {"strong": false, "text": "con Nelly, tutto diventa digitale!"}
+                ],
+                "name": "HENRY GENE GO SIONG",
+                "position": "ASO, centro odontoiatrico AllDent",
+                "image": "2_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": false,
+                    "src": "3_client_video.jpg"
+                },
+                "quote": [
+                    {"strong": false, "text": "Con Nelly, i nostri studi medici "},
+                    {"strong": true, "text": "risparmiano "},
+                    {"strong": false, "text": "sui costi di fatturazione, carta e stampa. Inoltre, "},
+                    {"strong": true, "text": "snellisce "},
+                    {"strong": false, "text": "i processi dello studio e "},
+                    {"strong": true, "text": "riduce enormemente il carico di lavoro del personale"}
+                ],
+                "name": "VOLKAN DEMIRBAS",
+                "position": "mydent",
+                "image": "3_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": false,
+                    "src": "4_client_video.jpg"
+                },
+                "quote": [
+                    {"strong": false, "text": "Con Nelly, "},
+                    {"strong": true, "text": "abbiamo significativamente semplificato il lavoro del nostro personale"},
+                    {"strong": false, "text": ", in quanto la mole di lavoro amministrativo è stata ridotta al minimo. Inoltre, i pazienti possono finalmente pagare in modo immediato ed efficiente"}
+                ],
+                "name": "JULIA CUTLASS",
+                "position": "ASO, Zahnkultur Marzahn",
+                "image": "4_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": false,
+                    "src": "5_client_video.jpg"
+                },
+                "quote": [
+                    {"strong": true, "text": "Nelly "},
+                    {"strong": false, "text": "ci "},
+                    {"strong": true, "text": "toglie un'enorme quantità di lavoro amministrativo"},
+                    {"strong": false, "text": ". Prima utilizzavamo un software gestionale che funzionava solo su tablet, ma che molto spesso veniva hackerato. Ora il front-desk è molto più sicuro e comodo"}
+                ],
+                "name": "GEORG-EIKE BÖHME, MD",
+                "position": "Medici di famiglia a Lehel, Germania",
+                "image": "5_client.jpg"
+            }
+        ]
+    },
+    "ourPromise": "CONFORME A GDPR",
+    "faq": {
+        "title": "Domande frequenti",
+        "faqs": [
+            {
+                "question": "I pazienti devono scaricare un'app per utilizzare Nelly?",
+                "answer": "No, Nelly funziona tramite la pagina web browser dei dispositivi del paziente."
+            },
+            {
+                "question": "Protezione dei dati: quanto è effettivamente sicura Nelly?",
+                "answer": "Nelly attribuisce grande importanza al tema della protezione dei dati. Tutti i dati sono criptati e conservati su server tedeschi. Tutti i dati generati appartengono allo studio. Per questo motivo, ci siamo sottoposti alla certificazione del TÜV per la protezione verificata dei dati. Potete accedere al nostro certificato TÜV qui: https://www.tuev-saar.de/zertifikat/tk45030/"
+            },
+            {
+                "question": "Nelly funziona anche con il gestionale del mio studio?",
+                "answer": "Sì, Nelly è compatibile con ogni sistema gestionale dello studio grazie alle sue interfacce web. Con l'aiuto di queste interfacce, le immagini e i documenti possono essere memorizzati direttamente nella cartella clinica del paziente. Per maggiori informazioni sulla compatibilità delle interfacce tra il software del vostro studio e Nelly, vi consigliamo di richiedere una consulenza gratuita a uno dei nostri esperti."
+            },
+            {
+                "question": "È necessario comprare un hardware aggiuntivo per Nelly?",
+                "answer": "No, per utilizzare Nelly NON è necessario alcun hardware aggiuntivo come tablet o tavoletta per firma."
+            },
+            {
+                "question": "Come fanno le persone che non possiedono uno smartphone ad utilizzare Nelly?",
+                "answer": "Oggi più del 90% delle persone in Germania ed Italia possiede uno smartphone. Con la pandemia, la scansione di codici QR e la compilazione di documenti tramite il proprio smartphone sono diventati sempre più importanti. I pazienti, dunque, hanno bisogno solo di un telefono abilitato agli SMS. Tuttavia, su richiesta dello studio è possibile aggiungere ed offrire anche il tablet."
+            }
+        ]
+    },
+    
+    "form": {
+        "title": [
+            {"strong": false, "text": "Richiedi subito informazioni "},
+            {"strong": true, "text": "gratuite."}
+        ],
+        "description": "Niente app o tablet. Nessuna stampa, archiviazione o scansione. Configurazione e aggiornamenti gratuiti. Richiedi una consulenza.",
+        "tags": ["Risparmio di costi", "Risparmio di tempo", "Compatibile con qualsiasi software gestionale"],
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "phone": "Numero di telefono",
+        "job": "Ruolo",
+        "email": "E-mail",
+        "region": "",
+        "defaultOption": "Seleziona",
+        "TyC": "Facendo clic su \"Invia\", l'utente acconsente alla conservazione e all'elaborazione dei dati personali forniti da Nelly Solutions GmbH per la fornitura del servizio richiesto. Per ulteriori informazioni, consultare la nostra informativa sulla privacy.",
+        "numeroCelulare": "Numero di cellulare / numero fisso",
+        "submit": "Invia",
+        "error": "Compila il campo richiesto."
+    },
+    "footer": {
+        "learnMore": {
+            "title": "Per saperne di più",
+            "links": [
+                {
+                    "text": "Richiedi subito una demo",
+                    "href": "#",
+                    "navLink": false
+                },
+                {
+                    "text": "Domande frequenti",
+                    "href": "#",
+                    "navLink": false
+                },
+                {
+                    "text": "Chi siamo",
+                    "href": "/en",
+                    "navLink": true
+                },
+                {
+                    "text": "Indirizzo",
+                    "href": "/en",
+                    "navLink": true
+                },
+                {
+                    "text": "Protezione dei dati",
+                    "href": "#",
+                    "navLink": false
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contatto",
+            "links": [
+                {
+                    "text": "Contatto",
+                    "href": "#",
+                    "navLink": false
+                },
+                {
+                    "text": "Servizio clienti",
+                    "href": "/en",
+                    "navLink": true
+                },
+                {
+                    "text": "info@nelly-solutions.com",
+                    "href": "mailto:info@nelly-solutions.com",
+                    "navLink": false
+                },
+                {
+                    "text": "+49 30 91733799",
+                    "href": "tel:+49 30 91733799",
+                    "navLink": false
+                }
+            ]
+        },
+        "copyright": "© Nelly Solutions 2023, Tutti i diritti riservati"
     }
 }

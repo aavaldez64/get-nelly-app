@@ -1,0 +1,23 @@
+
+.tags {
+    list-style: none;
+    margin: 0;
+    @apply flex flex-col gap-4 border-l-2 md:border-l-4 border-[#ffff9e] px-2 py-0 md:p-4
+}
+
+.form {
+    @apply md:px-8 text-white
+}
+.form label,
+.form input,
+.form select {
+    @apply block w-full font-medium
+}
+
+.form label {
+    @apply mb-2
+}
+.form input,
+.form select {
+    @apply text-[.8rem] md:text-[1rem] text-black p-4 rounded-2xl
+}

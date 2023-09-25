@@ -1,0 +1,46 @@
+
+
+.clientNav {
+    @apply flex gap-2 md:gap-4 items-center justify-center w-full md:w-8/12 min-h-[4rem];
+}
+.clientNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.clientNav li {
+    @apply flex items-center
+}
+.clientNav li:first-child button,
+.clientNav li:last-child button {
+    box-shadow: 0 4px 16px rgba(47,64,46,.15);
+    @apply bg-[#ffff9e] rounded-full h-[2rem] md:h-[3rem] w-[2rem] md:w-[3rem] flex justify-center items-center
+}
+.clientNav li:not(:first-child):not(:last-child) button {
+    border: 1px solid #d8e2d6;
+    transition: all .3s ease-in-out;
+    @apply bg-[#fff] rounded-full h-[2rem] md:h-[3rem] w-[2rem] md:w-[3rem] overflow-hidden flex justify-center items-center
+}
+button.current {
+    height: 4rem !important;
+    width: 4rem !important;
+}
+@media only screen and (max-width: 767px) {
+    button.current {
+        height: 3rem !important;
+        width: 3rem !important;
+    }
+}
+
+
+.resourceHidden {
+    @apply hidden
+}
+
+.quoteCard {
+    transition: opacity .1s ease-in-out;
+    @apply flex flex-col md:flex-row;
+}
+.quoteCardHidden {
+    opacity: 0;
+}

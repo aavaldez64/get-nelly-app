@@ -3,7 +3,7 @@
         "navLinks": [
             {
                 "text": "How it works",
-                "href": "#",
+                "href": "#so-funktionierts",
                 "link": false
             },
             {
@@ -133,5 +133,204 @@
             "Flexible installment payments",
             "Fewer inquiries"
         ]
+    },
+    "clients": {
+        "title": "OUR CLIENTS",
+        "list": [
+            {
+                "resource": {
+                    "video": true,
+                    "src": [
+                        {
+                        "type": "video/mp4",
+                        "src": "1_client.mp4"
+                        },
+                        {
+                        "type": "video/webm",
+                        "src": "1_client.webm"
+                        }
+                    ]
+                },
+                "quote": [
+                    {"strong": false, "text": "With Nelly, we have significantly improved the payment experience for our patients and eliminated the "},
+                    {"strong": true, "text": "majority of the administrative work "},
+                    {"strong": false, "text": "of our employees."}
+                ],
+                "name": "DR. PHILIPP F. GEBHARDT",
+                "position": "BISS45",
+                "image": "1_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": true,
+                    "src": [
+                        {
+                        "type": "video/mp4",
+                        "src": "2_client.mp4"
+                        },
+                        {
+                        "type": "video/webm",
+                        "src": "2_client.webm"
+                        }
+                    ]
+                },
+                "quote": [
+                    {"strong": false, "text": "To keep it short and sweet: "},
+                    {"strong": true, "text": "With Nelly, everything goes digital!"}
+                ],
+                "name": "HENRY GENE GO SIONG",
+                "position": "AllDent Dental Center",
+                "image": "2_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": false,
+                    "src": "3_client_video.jpg"
+                },
+                "quote": [
+                    {"strong": false, "text": "Our medical practices "},
+                    {"strong": true, "text": "save "},
+                    {"strong": false, "text": "on billing fees, paper and printing costs with Nelly. It also "},
+                    {"strong": true, "text": "speeds up "},
+                    {"strong": false, "text": "practice processes and "},
+                    {"strong": true, "text": "reduces staff workload tremendously."}
+                ],
+                "name": "VOLKAN DEMIRBAS",
+                "position": "mydent",
+                "image": "3_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": false,
+                    "src": "4_client_video.jpg"
+                },
+                "quote": [
+                    {"strong": false, "text": "With Nelly, "},
+                    {"strong": true, "text": "we significantly reduce the workload for our employees"},
+                    {"strong": false, "text": ", as the administrative effort has been reduced to a minimum. In addition, patients can finally pay in a timely manner."}
+                ],
+                "name": "JULIA CUTLASS",
+                "position": "Dental culture Marzahn",
+                "image": "4_client.jpg"
+            },
+            {
+                "resource": {
+                    "video": false,
+                    "src": "5_client_video.jpg"
+                },
+                "quote": [
+                    {"strong": true, "text": "Nelly takes an enormous amount of work off "},
+                    {"strong": false, "text": "our hands. Previously, we used sign-in software that ran on tablets but often crashed. Now, the registration process is much more relaxed."}
+                ],
+                "name": "GEORG-EIKE BÖHME, MD",
+                "position": "Family doctors in Lehel",
+                "image": "5_client.jpg"
+            }
+        ]
+    },
+    "ourPromise": "OUR PROMISE",
+    "faq": {
+        "title": "Frequently asked questions",
+        "faqs": [
+            {
+                "question": "Do patients need to download an app to use it?",
+                "answer": "No, Nelly works with the web browser of the end devices."
+            },
+            {
+                "question": "Data protection: How secure is Nelly?",
+                "answer": "We at Nelly attach great importance to the topic of data protection. All data is encrypted and stored on German servers. All data that is generated belongs to the practice. For this we have passed a certification of the TÜV for tested data protection. Here you can find our TÜV certificate: https://www.tuev-saar.de/zertifikat/tk45030/"
+            },
+            {
+                "question": "Will Nelly work with my practice management system?",
+                "answer": "Yes, Nelly is compatible with any practice management system thanks to its interfaces. With the help of these interfaces, images and documents can be stored directly in the patient file. For more information on the interface compatibility of your practice software and Nelly, we recommend a free consultation with one of our Nelly experts."
+            },
+            {
+                "question": "Is extra hardware necessary for Nelly?",
+                "answer": "No additional hardware, such as a tablet or signature pad, is required to use Nelly."
+            },
+            {
+                "question": "How can people who do not own a smartphone use Nelly?",
+                "answer": "Today, more than 90% of people in Germany already own a smartphone. Due to the Corona pandemic, scanning QR codes and filling out documents via one's own smartphone have arrived in the middle of society. However, a tablet can be added on request. This means patients only need a phone with text messaging capability. If patients do not have a smartphone at all, paper can still be used in addition to Nelly."
+            }
+        ]
+    },
+
+    "form": {
+        "title": [
+            {"strong": false, "text": "Request more information "},
+            {"strong": true, "text": "free of charge "},
+            {"strong": false, "text": "now."}
+        ],
+        "description": "No app or tablets. No printing, filing or scanning. Setup and updates free of charge. Get a consultation now",
+        "tags": ["Cost-saving", "Time-saving", "Compatible with any PMS"],
+        "firstName": "First name",
+        "lastName": "Last name",
+        "phone": "Phone number",
+        "job": "Job title",
+        "email": "Email",
+        "region": "",
+        "defaultOption": "Select",
+        "TyC": "",
+        "numeroCelulare": "",
+        "submit": "Submit",
+        "error": "Please complete this required field."
+    },
+    "footer": {
+        "learnMore": {
+            "title": "Learn more",
+            "links": [
+                {
+                    "text": "Request demo",
+                    "href": "#",
+                    "navLink": false
+                },
+                {
+                    "text": "FAQs",
+                    "href": "#",
+                    "navLink": false
+                },
+                {
+                    "text": "About Us",
+                    "href": "/en",
+                    "navLink": true
+                },
+                {
+                    "text": "Imprint",
+                    "href": "/en",
+                    "navLink": true
+                },
+                {
+                    "text": "Privacy",
+                    "href": "#",
+                    "navLink": false
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact",
+            "links": [
+                {
+                    "text": "Contact",
+                    "href": "#",
+                    "navLink": false
+                },
+                {
+                    "text": "Customer service",
+                    "href": "/en",
+                    "navLink": true
+                },
+                {
+                    "text": "info@nelly-solutions.com",
+                    "href": "mailto:info@nelly-solutions.com",
+                    "navLink": false
+                },
+                {
+                    "text": "+49 30 91733799",
+                    "href": "tel:+49 30 91733799",
+                    "navLink": false
+                }
+            ]
+        },
+        "copyright": "© Nelly Solutions 2023, All Rights Reserved"
     }
 }

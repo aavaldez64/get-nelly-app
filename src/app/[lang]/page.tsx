@@ -3,11 +3,15 @@ import { getDictionary } from './dictionaries';
 import { 
   Advantages,
   Benefits,
+  Clients,
   Compatible, 
+  Faq, 
   FeaturesSection, 
+  FormSection, 
   HowWorks,
   Introducing, 
   KnownFrom, 
+  OurPromise, 
   ScrollPhone, 
  } from '@/components/pages/homepage';
 
@@ -32,6 +36,10 @@ export default async function HomePage({ params: {lang = "en"} }: Props) {
       <Advantages dict={dict}/>
       <FeaturesSection dict={dict}/>
       <Benefits dict={dict}/>
+      <Clients dict={dict}/>
+      <OurPromise dict={dict}/>
+      <Faq dict={dict}/>
+      <FormSection dict={dict}/>
       
     </main>
   )
