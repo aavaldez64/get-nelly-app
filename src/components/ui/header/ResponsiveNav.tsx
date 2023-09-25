@@ -14,7 +14,7 @@ export const ResponsiveNav = ({ header }: {header: IHeader}) => {
     return (
         <div className="flex flex-wrap w-full justify-between lg:justify-start items-center mx-auto max-w-screen-xl relative">
             <div className='w-full lg:w-auto flex justify-between z-10 bg-[#E8F0E6]'>
-                <Link href="/en" className="flex items-center ps-4 py-1 lg:ps-0 lg:py-0">
+                <Link href="/" className="flex items-center ps-4 py-1 lg:ps-0 lg:py-0">
                     <Image
                         src="/assets/getnelly-logo.svg"
                         alt="Nelly"

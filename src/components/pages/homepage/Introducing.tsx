@@ -6,7 +6,7 @@ export const Introducing = ({ introducing }: {introducing: IntroducingProps}) =>
     
   return (
     <section className="bg-[#ffe] min-h-[40rem] flex flex-col lg:flex-row items-center justify-center relative">
-        <div className="hidden lg:block absolute h-[90%] text-[#f1f6e9] bottom-0" >
+        <div className="hidden lg:block absolute text-[#f1f6e9] bottom-0" style={{height: "90%"}}>
             <IconWrapper />
         </div>
         <div className="relative lg:absolute flex overflow-x-hidden p-8 justify-center z-50">
@@ -21,18 +21,18 @@ export const Introducing = ({ introducing }: {introducing: IntroducingProps}) =>
                 <Image
                     src="/assets/hero-iphone.jpg"
                     alt="Nelly iPhone"
-                    width={250}
-                    height={600}
-                    className=" w-full"
+                    width={508}
+                    height={943}
+                    className=" w-full h-auto"
                 />
             </article>
             <article className="hidden md:block w-[45rem] relative left-[30vw]">
                 <Image
                     src="/assets/hero-ipad-p-800.jpg"
                     alt="Nelly iPad"
-                    width={400}
-                    height={900}
-                    className="w-full"
+                    width={800}
+                    height={606}
+                    className="w-full h-auto"
                 />
             </article>
         </div>
