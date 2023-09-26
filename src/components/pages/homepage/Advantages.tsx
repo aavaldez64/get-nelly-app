@@ -1,4 +1,5 @@
 import { PropsWithDictionary } from "@/interfaces";
+import { AdvantagesObserver } from './faq/AdvantagesObserver';
 
 export const Advantages = ({dict}: PropsWithDictionary) => {
 
@@ -8,11 +9,11 @@ export const Advantages = ({dict}: PropsWithDictionary) => {
         <article>
           <h2 className="font-extrabold text-sm uppercase text-center">{dict?.advantages?.title || ""}</h2>
         </article>
-        <article className="flex flex-col lg:flex-row gap-16 w-8/12 justify-between">
+        <article className="flex flex-col lg:flex-row gap-16 w-8/12 justify-center lg:justify-between">
           {
             advantagesData.map(({unit, value, text}, index) => (
-              <div key={index} className="w-min min-w-[15rem] flex flex-col items-center">
-                <h3 className="font-extrabold text-4xl">{value}{unit}</h3>
+              <div key={index} className="w-full px-0 sm:px-8 lg:px-0 lg:w-min min-w-[15rem] flex flex-col items-center">
+                <AdvantagesObserver value={value} unit={unit} />
                 <p className="text-center">{text}</p>
               </div>
             ))
