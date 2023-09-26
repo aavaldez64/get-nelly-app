@@ -1,5 +1,5 @@
 import { PropsWithDictionary } from "@/interfaces";
-import { AdvantagesObserver } from './faq/AdvantagesObserver';
+import { AdvantagesObserver } from './advantages/AdvantagesObserver';
 
 export const Advantages = ({dict}: PropsWithDictionary) => {
 

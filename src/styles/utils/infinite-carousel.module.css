@@ -1,0 +1,15 @@
+
+.carousel {
+    scroll-behavior: smooth;
+    @apply flex gap-16 w-full overflow-x-auto;
+}
+.carousel::-webkit-scrollbar {
+    /* -webkit-appearance: none; */
+    height: 0;
+}
+.carousel::-webkit-scrollbar-button:increment,.carousel::-webkit-scrollbar-button {
+    /* display: none; */
+} 
+.carousel li {
+    flex: 0 0 16.66%;
+}
