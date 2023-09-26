@@ -23,7 +23,7 @@ export const FaqList = ({list}: {list: FAQItem[]}) => {
                     onClick={ () => touchCard(index) }
                 >
                     <h3 className="font-extrabold text-sm sm:text-base lg:text-lg">{ faq.question }</h3>
-                    <button type="button" className={ expanded.includes(index) ? style.toClose : ""}>
+                    <button aria-label="expand" type="button" className={ expanded.includes(index) ? style.toClose : ""}>
                         <AiOutlinePlus />
                     </button>
                     <p className={`${expanded.includes(index) ? "mt-4" : "h-0"}`}>{ faq.answer }</p>

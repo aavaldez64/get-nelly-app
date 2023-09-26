@@ -40,7 +40,7 @@ export const Preises = ({dict}: PropsWithDictionary) => {
                                 ))
                             }
                         </ul>
-                        <a href="#" className="nelly-btn-flex w-fit">
+                        <a aria-label={ item.button } href="#" className="nelly-btn-flex w-fit">
                             <p>{ item.button }</p>
                             <HiOutlineArrowRight className="text-xl" />
                         </a>

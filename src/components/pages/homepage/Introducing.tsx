@@ -13,7 +13,7 @@ export const Introducing = ({ introducing }: {introducing: IntroducingProps}) =>
             <article className="flex flex-col w-[80%] md:w-[70%] lg:w-[46.5%] gap-8 items-center justify-center">
                 <h1 className="font-[800] text-4xl text-center">{ introducing?.title || "" }</h1>
                 <p className="text-center font-medium">{ introducing?.text || "" }</p>
-                <a href="#kontakt" className="nelly-btn w-fit">{ introducing?.button || "" }</a>
+                <a aria-label={ introducing?.button || "" } href="#kontakt" className="nelly-btn w-fit">{ introducing?.button || "" }</a>
             </article>
         </div>
         <div className="flex overflow-x-hidden ps-[6vw] items-center justify-center md:justify-between relative w-full">

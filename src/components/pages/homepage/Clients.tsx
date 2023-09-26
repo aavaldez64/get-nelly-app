@@ -73,6 +73,7 @@ export const Clients = ({dict}: PropsWithDictionary) => {
                                     muted 
                                     loop
                                 >
+                                    {`A video for the quote of ${client.name}`}
                                     {
                                         client.resource.src.map(({src, type}, resIndex) => (
                                             <source key={resIndex} src={`/assets/clients/${src}`} type={type}/>
@@ -105,7 +106,7 @@ export const Clients = ({dict}: PropsWithDictionary) => {
         <div className="w-full flex justify-end">
             <ul className={style.clientNav}>
                 <li>
-                    <button type="button" onClick={() => navClient("prev")}>
+                    <button aria-label="previous" type="button" onClick={() => navClient("prev")}>
                         <HiOutlineArrowLeft />
                     </button>
                 </li>
@@ -128,7 +129,7 @@ export const Clients = ({dict}: PropsWithDictionary) => {
                     ))
                 }
                 <li>
-                    <button type="button" onClick={() => navClient("next")}>
+                    <button aria-label="next" type="button" onClick={() => navClient("next")}>
                         <HiOutlineArrowRight />
                     </button>
                 </li>

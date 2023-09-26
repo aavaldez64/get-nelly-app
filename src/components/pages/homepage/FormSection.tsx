@@ -28,14 +28,14 @@ export const FormSection = ({dict}: PropsWithDictionary) => {
             <article className="w-full md:w-7/12">
                 <form className={ style.form }>
                     <div className="flex flex-wrap -mx-3 mb-6">
-                        <div className="w-full sm:w-1/2 px-3">
+                        <div className="w-1/2 px-3">
                             <label htmlFor="first-name">
                                 {dict?.form.firstName || ""}*
                             </label>
                             <input className="" id="first-name" type="text" />
                             {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
                         </div>
-                        <div className="w-full sm:w-1/2 px-3">
+                        <div className="w-1/2 px-3">
                             <label htmlFor="last-name">
                                 {dict?.form.lastName || ""}*
                             </label>
@@ -78,10 +78,10 @@ export const FormSection = ({dict}: PropsWithDictionary) => {
                         dict?.form.region && (
                             <div className="flex flex-wrap -mx-3 mb-6">
                                 <div className="w-full px-3">
-                                    <label htmlFor="position">
+                                    <label htmlFor="region">
                                         { dict.form.region }*
                                     </label>
-                                    <select id="position" >
+                                    <select id="region" >
                                         <option>{dict?.form.defaultOption || ""}</option>
                                     </select>
                                 </div>
@@ -106,7 +106,7 @@ export const FormSection = ({dict}: PropsWithDictionary) => {
                         )
                     }
 
-                    <button className="nelly-btn text-black" type="button">{ dict?.form.submit }</button>
+                    <button aria-label={ dict?.form.submit } className="nelly-btn text-black" type="button">{ dict?.form.submit }</button>
 
                 </form>
             </article>

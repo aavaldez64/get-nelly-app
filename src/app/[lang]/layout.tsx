@@ -15,6 +15,7 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: 'Nelly',
   description: 'App created by Aaron Valdez using Next.js',
+  viewport: 'width=device-width, initial-scale=1, userscalable=no',
 }
 
 interface Props {

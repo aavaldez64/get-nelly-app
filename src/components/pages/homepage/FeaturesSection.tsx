@@ -47,7 +47,7 @@ export const FeaturesSection = ({dict}: PropsWithDictionary) => {
           </article>
 
           <div className="w-full flex justify-center">
-            <a href="#kontakt" className="nelly-btn-flex">
+            <a aria-label={ dict?.features?.button || "" } href="#kontakt" className="nelly-btn-flex">
               <HiOutlineArrowRight />
               <p>{ dict?.features?.button || "" }</p>
             </a>

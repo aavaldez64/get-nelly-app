@@ -34,15 +34,12 @@ export const Footer = ({dict}: PropsWithDictionary) => {
                                     <li key={index}>
                                         {
                                             item.navLink
-                                            ? <Link href={ item.href } className='font-medium text-sm'>{ item.text }</Link>
-                                            : <a href={ item.href } className='font-medium text-sm'>{ item.text }</a>
+                                            ? <Link aria-label={item.text} href={ item.href } className='font-medium text-sm block mb-1 md:mb-2'>{ item.text }</Link>
+                                            : <a aria-label={item.text} href={ item.href } className='font-medium text-sm block mb-1 md:mb-2'>{ item.text }</a>
                                         }
                                     </li>
                                 ))
                             }
-                            <li>
-                                <Link href="/en"></Link>
-                            </li>
                         </ul>
                     </article>
                     <article className="w-6/12">
@@ -53,8 +50,8 @@ export const Footer = ({dict}: PropsWithDictionary) => {
                                     <li key={index}>
                                         {
                                             item.navLink
-                                            ? <Link href={ item.href } className='font-medium text-sm'>{ item.text }</Link>
-                                            : <a href={ item.href } className='font-medium text-sm'>{ item.text }</a>
+                                            ? <Link aria-label={item.text} href={ item.href } className='font-medium text-sm block mb-1 md:mb-2'>{ item.text }</Link>
+                                            : <a aria-label={item.text} href={ item.href } className='font-medium text-sm block mb-1 md:mb-2'>{ item.text }</a>
                                         }
                                     </li>
                                 ))
@@ -62,16 +59,16 @@ export const Footer = ({dict}: PropsWithDictionary) => {
                         </ul>
                         <ul className={ style.contactLinks }>
                             <li>
-                                <a target="_blank" rel="noopener noreferer" href="https://www.linkedin.com/company/nelly-solutions/"><AiOutlineLinkedin /></a>
+                                <a aria-label="Linkedin" target="_blank" rel="noopener noreferer" href="https://www.linkedin.com/company/nelly-solutions/"><AiOutlineLinkedin /></a>
                             </li>
                             <li>
-                                <a target="_blank" rel="noopener noreferer" href="https://api.whatsapp.com/message/XHM5NMVQRBWMO1?autoload=1&app_absent=0"><AiOutlineWhatsApp /></a>
+                                <a aria-label="WhatsApp" target="_blank" rel="noopener noreferer" href="https://api.whatsapp.com/message/XHM5NMVQRBWMO1?autoload=1&app_absent=0"><AiOutlineWhatsApp /></a>
                             </li>
                             <li>
-                                <a target="_blank" rel="noopener noreferer" href="https://www.instagram.com/nellysolutions/"><AiOutlineInstagram /></a>
+                                <a aria-label="Instagram" target="_blank" rel="noopener noreferer" href="https://www.instagram.com/nellysolutions/"><AiOutlineInstagram /></a>
                             </li>
                             <li>
-                                <a target="_blank" rel="noopener noreferer" href="https://www.facebook.com/profile.php?id=100071800812353"><CiFacebook /></a>
+                                <a aria-label="Facebook" target="_blank" rel="noopener noreferer" href="https://www.facebook.com/profile.php?id=100071800812353"><CiFacebook /></a>
                             </li>
                         </ul>
                     </article>

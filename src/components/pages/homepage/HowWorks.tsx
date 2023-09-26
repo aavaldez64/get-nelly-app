@@ -54,7 +54,7 @@ export const HowWorks = ({dict}: PropsWithDictionary) => {
                         <div>
                             <IconNelly />
                         </div>
-                        <a href="#">
+                        <a href="#" aria-label={ dict?.howWorks?.button || "" }>
                             <p>{ dict?.howWorks?.button || "" }</p>
                             <HiOutlineArrowRight />
                         </a>
