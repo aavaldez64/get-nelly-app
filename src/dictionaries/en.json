@@ -87,7 +87,7 @@
                 "text": "Less paper, printing and postage costs"
             },
             {
-                "unit": "min",
+                "unit": " min",
                 "value": 90,
                 "text": "Daily time saving"
             },
@@ -152,9 +152,9 @@
                     ]
                 },
                 "quote": [
-                    {"strong": false, "text": "With Nelly, we have significantly improved the payment experience for our patients and eliminated the "},
+                    {"strong": false, "text": "\"With Nelly, we have significantly improved the payment experience for our patients and eliminated the "},
                     {"strong": true, "text": "majority of the administrative work "},
-                    {"strong": false, "text": "of our employees."}
+                    {"strong": false, "text": "of our employees.\""}
                 ],
                 "name": "DR. PHILIPP F. GEBHARDT",
                 "position": "BISS45",
@@ -175,8 +175,9 @@
                     ]
                 },
                 "quote": [
-                    {"strong": false, "text": "To keep it short and sweet: "},
-                    {"strong": true, "text": "With Nelly, everything goes digital!"}
+                    {"strong": false, "text": "\"To keep it short and sweet: "},
+                    {"strong": true, "text": "With Nelly, everything goes digital!"},
+                    {"strong": false, "text": "\""}
                 ],
                 "name": "HENRY GENE GO SIONG",
                 "position": "AllDent Dental Center",
@@ -188,12 +189,13 @@
                     "src": "3_client_video.jpg"
                 },
                 "quote": [
-                    {"strong": false, "text": "Our medical practices "},
+                    {"strong": false, "text": "\"Our medical practices "},
                     {"strong": true, "text": "save "},
                     {"strong": false, "text": "on billing fees, paper and printing costs with Nelly. It also "},
                     {"strong": true, "text": "speeds up "},
                     {"strong": false, "text": "practice processes and "},
-                    {"strong": true, "text": "reduces staff workload tremendously."}
+                    {"strong": true, "text": "reduces staff workload tremendously."},
+                    {"strong": false, "text": "\""}
                 ],
                 "name": "VOLKAN DEMIRBAS",
                 "position": "mydent",
@@ -205,9 +207,9 @@
                     "src": "4_client_video.jpg"
                 },
                 "quote": [
-                    {"strong": false, "text": "With Nelly, "},
+                    {"strong": false, "text": "\"With Nelly, "},
                     {"strong": true, "text": "we significantly reduce the workload for our employees"},
-                    {"strong": false, "text": ", as the administrative effort has been reduced to a minimum. In addition, patients can finally pay in a timely manner."}
+                    {"strong": false, "text": ", as the administrative effort has been reduced to a minimum. In addition, patients can finally pay in a timely manner.\""}
                 ],
                 "name": "JULIA CUTLASS",
                 "position": "Dental culture Marzahn",
@@ -219,8 +221,8 @@
                     "src": "5_client_video.jpg"
                 },
                 "quote": [
-                    {"strong": true, "text": "Nelly takes an enormous amount of work off "},
-                    {"strong": false, "text": "our hands. Previously, we used sign-in software that ran on tablets but often crashed. Now, the registration process is much more relaxed."}
+                    {"strong": true, "text": "\"Nelly takes an enormous amount of work off "},
+                    {"strong": false, "text": "our hands. Previously, we used sign-in software that ran on tablets but often crashed. Now, the registration process is much more relaxed.\""}
                 ],
                 "name": "GEORG-EIKE BÖHME, MD",
                 "position": "Family doctors in Lehel",

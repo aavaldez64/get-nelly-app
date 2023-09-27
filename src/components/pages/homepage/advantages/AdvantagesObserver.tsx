@@ -8,7 +8,7 @@ interface Props {
 }
 export const AdvantagesObserver = ({value, unit}: Props) => {
 
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(Math.round(value/3));
     const counterRef = useRef(null);
 
     useEffect(() => {
@@ -23,7 +23,7 @@ export const AdvantagesObserver = ({value, unit}: Props) => {
                     }
                     return prev + 1;
                 })
-              }, 1500/value);
+              }, 1800/value);
               // Desconectar observer
               observer.disconnect();  
             } 

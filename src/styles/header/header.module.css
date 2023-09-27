@@ -21,6 +21,11 @@
     padding: .75rem 0;
     @apply absolute top-[100%] bg-[#f1f6e9] w-full gap-1;
 }
+.navResponsive a {
+    padding: .75rem;
+    border-radius: .875rem;
+    @apply inline-block hover:bg-[#f1f6e9]
+}
 .buttonLang > button {
     padding: .75rem;
     border-radius: .875rem;

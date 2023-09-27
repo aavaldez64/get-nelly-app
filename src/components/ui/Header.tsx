@@ -43,7 +43,7 @@ export const Header = ({ dictionary, lang, bookDemo = false }: Props) => {
 
   return (
     <header ref={ headerRef } className={style.header}>
-      <nav className="px-0 lg:px-10 min-h-[4rem] lg:min-h-[5.8rem] flex items-center">
+      <nav className="px-0 lg:px-24 min-h-[4rem] lg:min-h-[5.8rem] flex items-center">
           <ResponsiveNav header={ dictionary.header } lang={lang} bookDemo={bookDemo}/>
       </nav>
     </header>

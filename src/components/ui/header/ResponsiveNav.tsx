@@ -31,7 +31,7 @@ export const ResponsiveNav = ({ header, lang, bookDemo }: Props) => {
     }, [navOpen])
     
     return (
-        <div className="flex flex-wrap w-full justify-between lg:justify-start items-center mx-auto max-w-screen-xl relative">
+        <div className="flex flex-wrap w-full justify-between lg:justify-start items-center mx-auto relative">
             <div className='w-full lg:w-auto flex justify-between z-10 bg-[#E8F0E6]'>
                 <Link aria-label="Home" href={`/${lang}`} className="flex items-center ps-4 py-1 lg:ps-0 lg:py-0">
                     <Image
@@ -60,14 +60,27 @@ export const ResponsiveNav = ({ header, lang, bookDemo }: Props) => {
             <div 
                 className={`${style.navResponsive} ${!navOpen ? style.closed : style.open} items-center w-full lg:flex lg:w-auto lg:order-1 lg:justify-between lg:flex-1 lg:px-8`}
             >
-                <ul className="flex flex-col mt-4 font-medium lg:flex-row gap-5 lg:gap-8 lg:mt-0">
+                <ul className="flex flex-col mt-4 font-medium lg:flex-row gap-5 lg:gap-2 lg:mt-0">
                     {
                         navLinks.map((item, index) => (
                             <li key={index}>
                                 {
                                     item.link
-                                    ? (<Link aria-label={item.text} className={currentPath === item.href ? "text-[#67986B]" : ""} href={`/${lang}/${item.href}`}>{item.text}</Link>)
-                                    : (<a aria-label={item.text} href={pathSplitted.length > 2 ? `/${lang}${item.href}` : item.href}>{item.text}</a>)
+                                    ? (
+                                        <Link 
+                                            aria-label={item.text} 
+                                            className={currentPath === item.href ? "text-[#67986B]" : ""} 
+                                            href={`/${lang}/${item.href}`}
+                                        >{item.text}</Link>
+                                        )
+                                    : (
+                                        <Link 
+                                            onClick={() => setNavOpen(false)}
+                                            // scroll={false}
+                                            aria-label={item.text} 
+                                            href={pathSplitted.length > 2 ? `/${lang}${item.href}` : item.href}
+                                        >{item.text}</Link>
+                                    )
                                 }
                             </li>
                         ))

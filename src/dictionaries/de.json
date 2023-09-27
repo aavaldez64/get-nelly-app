@@ -87,7 +87,7 @@
                 "text": "Weniger Papier-, Druck- und Portokosten"
             },
             {
-                "unit": "min",
+                "unit": " Min",
                 "value": 90,
                 "text": "Tägliche Zeitersparnis"
             },
@@ -152,10 +152,11 @@
                     ]
                 },
                 "quote": [
-                    {"strong": false, "text": "Mit Nelly haben wir das Zahlungserlebnis für unsere Patienten deutlich verbessert und den "},
+                    {"strong": false, "text": "„Mit Nelly haben wir das Zahlungserlebnis für unsere Patienten deutlich verbessert und den "},
                     {"strong": true, "text": "Großteil des Verwaltungsaufwandes "},
                     {"strong": false, "text": "unserer Mitarbeiter "},
-                    {"strong": true, "text": "reduziert."}
+                    {"strong": true, "text": "reduziert."},
+                    {"strong": false, "text": "“"}
                 ],
                 "name": "DR. PHILIPP F. GEBHARDT",
                 "position": "BISS45",
@@ -176,8 +177,9 @@
                     ]
                 },
                 "quote": [
-                    {"strong": false, "text": "Um es kurz und knapp zu halten: "},
-                    {"strong": false, "text": "Mit Nelly wird alles digitalisiert!"}
+                    {"strong": false, "text": "„Um es kurz und knapp zu halten: "},
+                    {"strong": true, "text": "Mit Nelly wird alles digitalisiert!"},
+                    {"strong": false, "text": "“"}
                 ],
                 "name": "HENRY GENE GO SIONG",
                 "position": "AllDent Zahnzentrum",
@@ -189,12 +191,13 @@
                     "src": "3_client_video.jpg"
                 },
                 "quote": [
-                    {"strong": false, "text": "Unsere Arztpraxen "},
+                    {"strong": false, "text": "„Unsere Arztpraxen "},
                     {"strong": true, "text": "sparen "},
                     {"strong": false, "text": "mit Nelly Abrechnungsgebühren, Papier und Druckkosten. Außerdem werden Praxisabläufe "},
                     {"strong": true, "text": "beschleunigt "},
                     {"strong": false, "text": "und das "},
-                    {"strong": true, "text": "Personal enorm entlastet."}
+                    {"strong": true, "text": "Personal enorm entlastet."},
+                    {"strong": false, "text": "“"}
                 ],
                 "name": "VOLKAN DEMIRBAS",
                 "position": "mydent",
@@ -206,9 +209,9 @@
                     "src": "4_client_video.jpg"
                 },
                 "quote": [
-                    {"strong": false, "text": "Mit Nelly "},
+                    {"strong": false, "text": "„Mit Nelly "},
                     {"strong": true, "text": "entlasten wir unsere Mitarbeiter deutlich"},
-                    {"strong": false, "text": ", da der Verwaltungsaufwand auf ein Minimum reduziert wurde. Außerdem können Patienten endlich zeitgemäß zahlen."}
+                    {"strong": false, "text": ", da der Verwaltungsaufwand auf ein Minimum reduziert wurde. Außerdem können Patienten endlich zeitgemäß zahlen.“"}
                 ],
                 "name": "JULIA STECHMESSER",
                 "position": "Zahnkultur Marzahn",
@@ -220,8 +223,8 @@
                     "src": "5_client_video.jpg"
                 },
                 "quote": [
-                    {"strong": true, "text": "Nelly nimmt uns enorm viel Arbeit ab. "},
-                    {"strong": false, "text": "Zuvor nutzten wir eine Anmeldungssoftware die auf Tablets lief aber häufig hackte. Jetzt ist es an der Anmeldung viel entspannter."}
+                    {"strong": true, "text": "„Nelly nimmt uns enorm viel Arbeit ab. "},
+                    {"strong": false, "text": "Zuvor nutzten wir eine Anmeldungssoftware die auf Tablets lief aber häufig hackte. Jetzt ist es an der Anmeldung viel entspannter.“"}
                 ],
                 "name": "DR. MED. GEORG-EIKE BÖHME",
                 "position": "Hausärzte im Lehel",

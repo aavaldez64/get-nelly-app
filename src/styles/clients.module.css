@@ -39,7 +39,7 @@ button.current {
 
 .quoteCard {
     transition: opacity .1s ease-in-out;
-    @apply flex flex-col md:flex-row;
+    @apply flex flex-col md:flex-row min-h-[50rem] sm:min-h-[62rem] md:min-h-[32rem] lg:min-h-[30rem];
 }
 .quoteCardHidden {
     opacity: 0;

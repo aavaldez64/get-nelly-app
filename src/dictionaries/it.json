@@ -77,7 +77,7 @@
                 "text": "Meno carta, stampa e costi di conservazione"
             },
             {
-                "unit": "min",
+                "unit": " min",
                 "value": 90,
                 "text": "Risparmio quotidiano di tempo"
             },
@@ -142,9 +142,9 @@
                     ]
                 },
                 "quote": [
-                    {"strong": false, "text": "Con Nelly abbiamo migliorato in modo significativo l'esperienza di pagamento per i nostri pazienti e abbiamo eliminato parte dei costi amministrativi. "},
+                    {"strong": false, "text": "\"Con Nelly abbiamo migliorato in modo significativo l'esperienza di pagamento per i nostri pazienti e abbiamo eliminato parte dei costi amministrativi. "},
                     {"strong": true, "text": "Abbiamo ridotto la maggior parte delle attività amministrative "},
-                    {"strong": false, "text": "del nostro personale."}
+                    {"strong": false, "text": "del nostro personale.\""}
                 ],
                 "name": "DR. PHILIPP F. GEBHARDT",
                 "position": "BISS45",
@@ -165,8 +165,9 @@
                     ]
                 },
                 "quote": [
-                    {"strong": false, "text": "Per farla breve: "},
-                    {"strong": false, "text": "con Nelly, tutto diventa digitale!"}
+                    {"strong": false, "text": "\"Per farla breve: "},
+                    {"strong": true, "text": "con Nelly, tutto diventa digitale!"},
+                    {"strong": false, "text": "\""}
                 ],
                 "name": "HENRY GENE GO SIONG",
                 "position": "ASO, centro odontoiatrico AllDent",
@@ -178,12 +179,13 @@
                     "src": "3_client_video.jpg"
                 },
                 "quote": [
-                    {"strong": false, "text": "Con Nelly, i nostri studi medici "},
+                    {"strong": false, "text": "\"Con Nelly, i nostri studi medici "},
                     {"strong": true, "text": "risparmiano "},
                     {"strong": false, "text": "sui costi di fatturazione, carta e stampa. Inoltre, "},
                     {"strong": true, "text": "snellisce "},
                     {"strong": false, "text": "i processi dello studio e "},
-                    {"strong": true, "text": "riduce enormemente il carico di lavoro del personale"}
+                    {"strong": true, "text": "riduce enormemente il carico di lavoro del personale"},
+                    {"strong": false, "text": "\""}
                 ],
                 "name": "VOLKAN DEMIRBAS",
                 "position": "mydent",
@@ -195,9 +197,9 @@
                     "src": "4_client_video.jpg"
                 },
                 "quote": [
-                    {"strong": false, "text": "Con Nelly, "},
+                    {"strong": false, "text": "\"Con Nelly, "},
                     {"strong": true, "text": "abbiamo significativamente semplificato il lavoro del nostro personale"},
-                    {"strong": false, "text": ", in quanto la mole di lavoro amministrativo è stata ridotta al minimo. Inoltre, i pazienti possono finalmente pagare in modo immediato ed efficiente"}
+                    {"strong": false, "text": ", in quanto la mole di lavoro amministrativo è stata ridotta al minimo. Inoltre, i pazienti possono finalmente pagare in modo immediato ed efficiente\""}
                 ],
                 "name": "JULIA CUTLASS",
                 "position": "ASO, Zahnkultur Marzahn",
@@ -209,10 +211,10 @@
                     "src": "5_client_video.jpg"
                 },
                 "quote": [
-                    {"strong": true, "text": "Nelly "},
+                    {"strong": true, "text": "\"Nelly "},
                     {"strong": false, "text": "ci "},
                     {"strong": true, "text": "toglie un'enorme quantità di lavoro amministrativo"},
-                    {"strong": false, "text": ". Prima utilizzavamo un software gestionale che funzionava solo su tablet, ma che molto spesso veniva hackerato. Ora il front-desk è molto più sicuro e comodo"}
+                    {"strong": false, "text": ". Prima utilizzavamo un software gestionale che funzionava solo su tablet, ma che molto spesso veniva hackerato. Ora il front-desk è molto più sicuro e comodo\""}
                 ],
                 "name": "GEORG-EIKE BÖHME, MD",
                 "position": "Medici di famiglia a Lehel, Germania",
