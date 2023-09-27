@@ -1,0 +1,31 @@
+
+
+.navDashes {
+    list-style: none;
+    @apply m-0 p-0 absolute flex flex-col h-[25%] gap-2 left-[2vw] sm:left-0 top-[50vh] sm:top-[57vh] md:top-[34vh] lg:top-[27vh] xl:top-[35vh];
+}
+.dashInactive, 
+.dashActive {
+    transition: all .3s ease-in-out;
+    @apply rounded-xl w-[.22rem] xl:w-1;
+}
+.dashInactive {
+    flex: 1;
+    @apply bg-[#e2edd0];
+}
+.dashActive {
+    flex: 2;
+    @apply bg-[#68986b];
+}
+
+
+@media only screen and (max-width: 767px) {
+    .responsiveScrollText {
+        transform: translateY(50vh);
+    }
+}
+@media only screen and (max-width: 492px) {
+    .responsiveScrollText {
+        transform: translateY(45vh);
+    }
+}

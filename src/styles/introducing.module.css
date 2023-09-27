@@ -15,7 +15,7 @@
     transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
 }
 .phone {
-    transition: left 0.8s ease-in-out;
+    transition: left 0.8s ease-in-out, top 0.8s ease-in-out;
     @apply w-[16rem] relative;
 }
 .tablet {
@@ -32,12 +32,10 @@
     opacity: 0;
     transform: translateY(4rem);
 }
-.phoneInitial {
-    @apply left-[-20vw];
-}
 .tabletInitial {
     @apply left-[45vw];
 }
+
 
 .wrapperObserved {
     @apply h-[90%];
@@ -47,9 +45,32 @@
     opacity: 1;
     transform: translateY(0);
 }
-.phoneObserved {
-    @apply left-0;
+@media only screen and (min-width: 1300px) {
+    .tabletObserved {
+        @apply left-[20vw];
+    }
 }
-.tabletObserved {
-    @apply left-[30vw];
+@media only screen and (max-width: 1299px) {
+    .tabletObserved {
+        @apply left-[30vw];
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .phoneInitial {
+        @apply left-[-20vw];
+    }
+    .phoneObserved {
+        @apply left-0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .phoneInitial {
+        @apply top-[100vh];
+    }
+    .phoneObserved {
+        @apply top-0;
+    }
 }

@@ -17,7 +17,7 @@ export const Introducing = ({ introducing }: {introducing: IntroducingProps}) =>
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
             if(entries[0].isIntersecting) {
-                // Animar contador
+                // Animar Elementos
                 setActionStyles({
                     mainContent: style.mainContentObserved,
                     phone: style.phoneObserved,
@@ -46,7 +46,7 @@ export const Introducing = ({ introducing }: {introducing: IntroducingProps}) =>
                 <a aria-label={ introducing?.button || "" } href="#kontakt" className="nelly-btn w-fit">{ introducing?.button || "" }</a>
             </article>
         </div>
-        <div className="flex overflow-x-hidden ps-[6vw] items-center justify-center md:justify-between relative w-full">
+        <div className="flex overflow-hidden ps-[6vw] items-center justify-center md:justify-between relative w-full">
             <article className={`${style.phone} ${actionStyles.phone}`}>
                 <Image
                     src="/assets/hero-iphone.jpg"
