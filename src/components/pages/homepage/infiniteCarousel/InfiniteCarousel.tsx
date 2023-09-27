@@ -18,12 +18,12 @@ export const InfiniteCarousel = ({items}: Props) => {
       () => {
         const container = carouselRef.current as unknown as HTMLElement;
         setPosition(pos => {
-        if(pos >= items.length - 6) {
-            // Volver al inicio
-            return 0;  
-        } else {
-            return pos + 1; 
-        }
+            if(pos >= items.length - 6) {
+                // Volver al inicio
+                return 0;  
+            } else {
+                return pos + 1; 
+            }
         });
         
         container.scrollLeft = 0

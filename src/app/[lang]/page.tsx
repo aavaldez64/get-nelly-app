@@ -14,7 +14,7 @@ import {
   OurPromise,
   ScrollPhone,
 } from "@/components/pages";
-import { Footer, Header } from "@/components/ui";
+import { Footer, Header } from "@/components/navigation";
 
 interface Props {
   params: {

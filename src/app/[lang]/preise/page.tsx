@@ -1,8 +1,8 @@
-import { Footer, Header } from "@/components/ui";
-import { getDictionary } from "../dictionaries";
-import { Languages } from "@/interfaces";
-import { Advantages, Faq, OurPromise, Preises } from "@/components/pages";
 import { Metadata } from "next";
+import { getDictionary } from "../dictionaries";
+import { Footer, Header } from "@/components/navigation";
+import { Advantages, Faq, OurPromise, Preises } from "@/components/pages";
+import { Languages } from "@/interfaces";
 
 interface Props {
   params: {
