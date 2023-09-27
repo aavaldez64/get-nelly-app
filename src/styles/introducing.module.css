@@ -1,0 +1,55 @@
+
+.section {
+    @apply bg-[#ffe] min-h-[40rem] flex flex-col lg:flex-row items-center justify-center relative;
+}
+
+.wrapper {
+    transition: height 0.8s ease-in-out;
+    @apply hidden lg:block absolute text-[#f1f6e9] bottom-0;
+}
+.mainContent {
+    @apply relative lg:absolute flex p-8 justify-center z-50 overflow-hidden;
+}
+.mainContent p, 
+.mainContent a {
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+.phone {
+    transition: left 0.8s ease-in-out;
+    @apply w-[16rem] relative;
+}
+.tablet {
+    transition: left 0.8s ease-in-out;
+    @apply hidden md:block w-[45rem] relative;
+}
+
+
+.wrapperInitial {
+    @apply h-[55%];
+}
+.mainContentInitial p, 
+.mainContentInitial a {
+    opacity: 0;
+    transform: translateY(4rem);
+}
+.phoneInitial {
+    @apply left-[-20vw];
+}
+.tabletInitial {
+    @apply left-[45vw];
+}
+
+.wrapperObserved {
+    @apply h-[90%];
+}
+.mainContentObserved p, 
+.mainContentObserved a {
+    opacity: 1;
+    transform: translateY(0);
+}
+.phoneObserved {
+    @apply left-0;
+}
+.tabletObserved {
+    @apply left-[30vw];
+}
