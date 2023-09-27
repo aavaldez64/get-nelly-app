@@ -7,6 +7,7 @@ import { MenuLang } from './MenuLang';
 import type { Header as IHeader, Languages } from '@/interfaces';
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
+import ScrollLink from '@/components/utils/ScrollLink';
 
 interface Props {
     header: IHeader;
@@ -74,12 +75,12 @@ export const ResponsiveNav = ({ header, lang, bookDemo }: Props) => {
                                         >{item.text}</Link>
                                         )
                                     : (
-                                        <Link 
-                                            onClick={() => setNavOpen(false)}
-                                            // scroll={false}
+                                        <ScrollLink
                                             aria-label={item.text} 
                                             href={pathSplitted.length > 2 ? `/${lang}${item.href}` : item.href}
-                                        >{item.text}</Link>
+                                        >
+                                            {item.text}
+                                        </ScrollLink>
                                     )
                                 }
                             </li>
